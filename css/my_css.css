@@ -10,3 +10,9 @@ tr, td {
     text-align: left;
     padding-right: 30px;
 }
+
+.my-sidebar {
+    position: fixed;
+    top: 150px;
+    width: auto;
+}

@@ -21,8 +21,6 @@
 <body>
     <!-- Navbar -->
     <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-        <div class="uk-navbar-left">
-
             <ul class="uk-navbar-nav">
                 <li><a href="/schattenorigami/index.html">Home</a></li>
                 <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
@@ -31,8 +29,19 @@
         </div>
     </nav>
 
+    <!-- Sidenav -->
+    <div class="my-sidebar uk-tile-default uk-padding-small uk-visible@l">
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
+            <li>Versions</li>
+            <hr class="uk-margin-remove">
+            <li><a href="#version1.1">Version 1.1</a></li>
+            <li><a href="#version1.0">Version 1.0</a></li>
+        </ul>
+    </div>
+
+
     <!-- main stuff -->
-    <div class="uk-container">
+    <div class="uk-container uk-container-small">
 
         <h1>Avicularia alata</h1>
 
@@ -44,7 +53,7 @@
         uk-child-width-1-2@l
         uk-text-center" uk-grid>
             <div class="uk-width-1-1">
-                <h3>Version 1.1</h3>
+                <h3 id="version1.1">Version 1.1</h3>
                 <p>This is a slightly updated version of my winged taratula. The only real difference is the abdomen of
                     the
                     spider, the opisthosoma, which now has a more hairy texture. I also tried to get a better pose
@@ -111,7 +120,7 @@
             </div>
 
             <div class="uk-width-1-1">
-                <h3>Version 1.0</h3>
+                <h3 id="version1.0">Version 1.0</h3>
                 <p>The genus 'Avicularia' contains several species of tarantulas and 'alata' is Latin and means
                     'winged'. So
                     the name of this design basically means winged tarantula, but that just doesn't sound as fancy.
@@ -163,7 +172,8 @@
                     </tr>
                     <tr>
                         <td><b>Trivia</b></td>
-                        <td>This model won the <a href=https://discord.gg/yU4Cvry class="uk-link-muted">Origami-dan</a> 2020 June design contest.</td>
+                        <td>This model won the <a href=https://discord.gg/yU4Cvry class="uk-link-muted">Origami-dan</a>
+                            2020 June design contest.</td>
                     </tr>
                     <tr>
                         <td><b>CP</b></td>
