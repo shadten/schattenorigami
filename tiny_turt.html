@@ -1,0 +1,149 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="css/my_css.css">
+
+    <!-- UIkit JS -->
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <title>Avicularia alata</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
+        <ul class="uk-navbar-nav">
+            <li><a href="/schattenorigami/index.html">Home</a></li>
+            <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
+        </ul>
+
+        </div>
+    </nav>
+
+    <!-- Versions Nav (left) -->
+    <div class="my-sidebar-right uk-tile-muted uk-padding-small uk-visible@l">
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
+            <h5 class="uk-margin-remove">Versions</h5>
+            <hr class="uk-margin-remove">
+            <li><a href="#version1.1">Version 1.1</a></li>
+        </ul>
+    </div>
+
+    <!-- Artworks Nav (rigth) -->
+    <div class="my-sidebar-left uk-tile-muted uk-padding-small uk-visible@l">
+        <ul class="uk-nav uk-nav-default">
+            <h5 class="uk-margin-remove">Models</h5>
+            <hr class="uk-margin-remove">
+            <li><a href="avicularia_alata.html">Avicularia alata</a></li>
+            <li class="uk-active"><a href="tiny_turt.html">Tiny Turt</a></li>
+        </ul>
+    </div>
+
+    <!-- main stuff -->
+    <div class="uk-container uk-container-small">
+
+        <h1>Tiny Turt</h1>
+
+        <hr>
+
+        <div class="uk-grid-medium 
+        uk-child-width-1-2@s 
+        uk-child-width-1-2@m
+        uk-child-width-1-2@l
+        uk-text-center" uk-grid>
+
+            <!-- Verion 1.0 -->
+            <div class="uk-width-1-1">
+                <h3 id="version1.1">Version 1.0</h3>
+                <p>This is a relatively simple model that does not employ any special design technique and requires
+                    almost no shaping after the actual folding process. It can be folded very quickly too, it takes me
+                    about 15 minutes. Yet when folded carefully, it has a very nice effect.</p>
+            </div>
+
+
+            <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1"
+                uk-slideshow="ratio: 1:1; animation: pull">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="assets/artwork_imgs/tiny_turt_1.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="assets/artwork_imgs/tiny_turt_2.jpeg" alt="" uk-cover>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slideshow-item="next"></a>
+
+                <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td><b>Created</b></td>
+                        <td>September 2021</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paper</b></td>
+                        <td>15cm square of tracing paper + tissue paper</td>
+                    </tr>
+                    <tr>
+                        <td><b>Time</b></td>
+                        <td>~15 minutes</td>
+                    </tr>
+                    <tr>
+                        <td><b>CP</b></td>
+                        <td>
+                            <div>
+                                <div uk-lightbox>
+                                    <a class="uk-inline" href="assets/CPs/Tiny Turt v1.0.png">
+                                        <img src="assets/CPs/Tiny Turt v1.0.png" width="500">
+                                    </a>
+                                </div>
+                                <a class="uk-button uk-button-text" href="assets/CPs/Tiny Turt v1.0.png"
+                                    download>Download</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="uk-background-muted uk-padding uk-margin-medium-top uk-margin-remove-left">
+
+        <h3 class="uk-margin-small-left">
+            Social Media
+        </h3>
+
+        <div>
+            <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-small-left uk-icon-button"
+                uk-icon="instagram"></a>
+            <a href="https://twitter.com/schattenorigami" class="uk-margin-small-left uk-icon-button"
+                uk-icon="twitter"></a>
+            <span class="uk-margin-small-left uk-icon-button" uk-icon="discord"
+                uk-tooltip="title: schatten#0319"></span>
+        </div>
+
+        <hr>
+
+        <div class="uk-margin-small-left">&copy schattenorigami</div>
+
+    </div>
+</body>
+
+</html>
