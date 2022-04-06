@@ -21,24 +21,33 @@
 <body>
     <!-- Navbar -->
     <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-            <ul class="uk-navbar-nav">
-                <li><a href="/schattenorigami/index.html">Home</a></li>
-                <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
-            </ul>
+        <ul class="uk-navbar-nav">
+            <li><a href="/schattenorigami/index.html">Home</a></li>
+            <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
+        </ul>
 
         </div>
     </nav>
 
-    <!-- Sidenav -->
-    <div class="my-sidebar uk-tile-default uk-padding-small uk-visible@l">
+    <!-- Versions Nav (left) -->
+    <div class="my-sidebar-right uk-tile-muted uk-padding-small uk-visible@l">
         <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
-            <li>Versions</li>
+            <h5 class="uk-margin-remove">Versions</h5>
             <hr class="uk-margin-remove">
             <li><a href="#version1.1">Version 1.1</a></li>
             <li><a href="#version1.0">Version 1.0</a></li>
         </ul>
     </div>
 
+    <!-- Artworks Nav (rigth) -->
+    <div class="my-sidebar-left uk-tile-muted uk-padding-small uk-visible@l">
+        <ul class="uk-nav uk-nav-default">
+            <h5 class="uk-margin-remove">Models</h5>
+            <hr class="uk-margin-remove">
+            <li class="uk-active"><a href="avicularia_alata.html">Avicularia alata</a></li>
+            <li><a href="tiny_turt.html">Tiny Turt</a></li>
+        </ul>
+    </div>
 
     <!-- main stuff -->
     <div class="uk-container uk-container-small">
@@ -104,8 +113,9 @@
                         <td>
                             <div>
                                 <div uk-lightbox>
-                                    <a class="uk-button uk-button-text"
-                                        href="assets/CPs/Avicularia alata v1.1.png">Preview</a>
+                                    <a class="uk-inline" href="assets/CPs/Avicularia alata v1.1.png">
+                                        <img src="assets/CPs/Avicularia alata v1.1.png" width="500">
+                                    </a>
                                 </div>
                                 <a class="uk-button uk-button-text" href="assets/CPs/Avicularia alata v1.1.png"
                                     download>Download</a>
@@ -180,8 +190,9 @@
                         <td>
                             <div>
                                 <div uk-lightbox>
-                                    <a class="uk-button uk-button-text"
-                                        href="assets/CPs/Avicularia alata v1.0.png">Preview</a>
+                                    <a class="uk-inline" href="assets/CPs/Avicularia alata v1.1.png">
+                                        <img src="assets/CPs/Avicularia alata v1.0.png" width="500">
+                                    </a>
                                 </div>
                                 <a class="uk-button uk-button-text" href="assets/CPs/Avicularia alata v1.0.png"
                                     download>Download</a>

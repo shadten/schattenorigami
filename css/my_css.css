@@ -11,8 +11,17 @@ tr, td {
     padding-right: 30px;
 }
 
-.my-sidebar {
+.my-sidebar-right {
     position: fixed;
-    top: 150px;
+    right: 25px;
+    top: 125px;
+    width: auto;
+}
+
+
+.my-sidebar-left {
+    position: fixed;
+    left: 25px;
+    top: 125px;
     width: auto;
 }
