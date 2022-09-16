@@ -25,3 +25,16 @@ tr, td {
     top: 125px;
     width: auto;
 }
+
+.model_title { 
+    color: red;
+}
+
+h3::before{
+    display: block; 
+    content: " "; 
+    margin-top: -80px; 
+    height: 80px; 
+    visibility: hidden; 
+    pointer-events: none;
+}

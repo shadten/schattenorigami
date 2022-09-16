@@ -19,31 +19,33 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-        <ul class="uk-navbar-nav">
-            <li><a href="/schattenorigami/index.html">Home</a></li>
-            <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
-        </ul>
+    <header>
+        <!-- Navbar -->
+        <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
+            <ul class="uk-navbar-nav">
+                <li><a href="/schattenorigami/index.html">Home</a></li>
+                <li class="uk-active"><a href="/schattenorigami/artworks.html">artworks</a></li>
+            </ul>
 
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
 
     <!-- Versions Nav (right) -->
-    <nav class="my-sidebar-right uk-tile-muted uk-padding-small uk-visible@l">
-        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="scroll: true"><!---="closest: li; scroll: true">-->
-            <h5 class="uk-margin-remove">Versions</h5>
-            <hr class="uk-margin-remove">
-            <li><a href="#version1.1">Version 1.1</a></li>
-            <li><a href="#version1.0">Version 1.0</a></li>
+    <div class="my-sidebar-right uk-tile-muted uk-padding-small uk-visible@l">
+        <ul class="uk-nav uk-nav-default">
+            <li class="uk-nav-header">Versions</li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#version1.1" uk-scroll>Version 1.1</a></li>
+            <li><a href="#version1.0" uk-scroll>Version 1.0</a></li>
         </ul>
-    </nav>
+    </div>
 
     <!-- Artworks Nav (left) -->
     <div class="my-sidebar-left uk-tile-muted uk-padding-small uk-visible@l">
         <ul class="uk-nav uk-nav-default">
-            <h5 class="uk-margin-remove">Models</h5>
-            <hr class="uk-margin-remove">
+            <li class="uk-nav-header">Models</li>
+            <li class="uk-nav-divider"></li>
             <li class="uk-active"><a href="avicularia_alata.html">Avicularia alata</a></li>
             <li><a href="tiny_turt.html">Tiny Turt</a></li>
         </ul>
@@ -63,8 +65,8 @@
         uk-text-center" uk-grid>
 
             <!-- Verion 1.1 -->
-            <div id="version1.1" class="uk-width-1-1">
-                <h3>Version 1.1</h3>
+            <div class="uk-width-1-1">
+                <h3 id="version1.1" >Version 1.1</h3>
                 <p>This is a slightly updated version of my winged taratula. The only real difference is the abdomen of
                     the
                     spider, the opisthosoma, which now has a more hairy texture. I also tried to get a better pose
