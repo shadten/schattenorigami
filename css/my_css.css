@@ -13,18 +13,25 @@ tr, td {
 
 .my-sidebar-right {
     position: fixed;
-    right: 25px;
-    top: 125px;
+    right: 200px;
+    top: 110px;
     width: auto;
+
+    background-color: white;
 }
 
 
 .my-sidebar-left {
     position: fixed;
-    left: 25px;
-    top: 125px;
-    bottom: 45px;
-    width: auto;
+    /*left: 25px;
+    top: 125px;*/
+    left: 0px;
+    top: 80px;
+    bottom: 0px;
+    width: 170px;
+
+    overflow-y: scroll;
+    background-color: white;
 }
 
 .model_title { 
@@ -43,7 +50,7 @@ h3::before{
 
 div.my-sidebar-right>ul.uk-nav>.uk-active>a::before {
     content: "";
-    position: static;
+    position: relative;
     width: 15px;
     border-top: 1px solid #5dd08d;
 }
@@ -51,8 +58,8 @@ div.my-sidebar-right>ul.uk-nav>.uk-active>a::before {
 div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     content: "";
     position: static;
-    top: 15px;
-    left: 0px;
+    /*top: 15px;
+    left: -25px;*/
     width: 15px;
     border-top: 1px solid #5dd08d;
 }
