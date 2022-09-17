@@ -33,11 +33,12 @@
 
     <!-- Versions Nav (right) -->
     <div class="my-sidebar-right uk-tile-muted uk-padding-small uk-visible@l">
-        <ul class="uk-nav uk-nav-default">
+        <ul uk-scrollspy-nav="closest: li; offset: 100"
+        class="uk-nav uk-nav-default">
             <li class="uk-nav-header">Versions</li>
             <li class="uk-nav-divider"></li>
-            <li><a href="#version1.1">Version 1.1</a></li>
-            <li><a href="#version1.0">Version 1.0</a></li>
+            <li class><a href="#version1.1">Version 1.1</a></li>
+            <li class><a href="#version1.0">Version 1.0</a></li>
         </ul>
     </div>
 
@@ -52,7 +53,7 @@
     </div>
 
     <!-- main stuff -->
-    <div class="uk-container uk-container-small">
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
 
         <h1>Avicularia alata</h1>
 
@@ -126,7 +127,7 @@
                                     </a>
                                 </div>
                                 <a class="uk-button uk-button-text" href="assets/CPs/Avicularia alata v1.1.png"
-                                    download>Download</a>
+                                    download>Download CP</a>
                             </div>
                         </td>
                     </tr>
@@ -206,7 +207,7 @@
                                     </a>
                                 </div>
                                 <a class="uk-button uk-button-text" href="assets/CPs/Avicularia alata v1.0.png"
-                                    download>Download</a>
+                                    download>Download CP</a>
                             </div>
                         </td>
                     </tr>
@@ -217,12 +218,12 @@
 
     </div>
 
-    <!-- FOOTER -->
-    <div class="uk-background-muted uk-padding uk-margin-medium-top uk-margin-remove-left">
+    <!-- FOOTER 
+    <div class="uk-background-muted uk-padding uk-margin-medium-top">
 
-        <h3 class="uk-margin-small-left">
+        <h4 class="uk-margin-small-left">
             Social Media
-        </h3>
+        </h4>
 
         <div>
             <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-small-left uk-icon-button"
@@ -238,6 +239,7 @@
         <div class="uk-margin-small-left">&copy schattenorigami</div>
 
     </div>
+    -->
 </body>
 
 </html>

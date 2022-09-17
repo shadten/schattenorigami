@@ -23,6 +23,7 @@ tr, td {
     position: fixed;
     left: 25px;
     top: 125px;
+    bottom: 45px;
     width: auto;
 }
 
@@ -37,4 +38,21 @@ h3::before{
     height: 80px; 
     visibility: hidden; 
     pointer-events: none;
+}
+
+
+div.my-sidebar-right>ul.uk-nav>.uk-active>a::before {
+    content: "";
+    position: static;
+    width: 15px;
+    border-top: 1px solid #5dd08d;
+}
+
+div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
+    content: "";
+    position: static;
+    top: 15px;
+    left: 0px;
+    width: 15px;
+    border-top: 1px solid #5dd08d;
 }
