@@ -1,13 +1,13 @@
-
 .my-comment {
     color: red;
 }
 
 p {
-    text-align: left;
+    text-align: justify;
 }
 
-tr, td {
+tr,
+td {
     text-align: left;
     padding-right: 30px;
 }
@@ -35,16 +35,20 @@ tr, td {
     background-color: white;
 }
 
-.model_title { 
-    color: red;
+.my-model-title {
+    text-align: center;
 }
 
-h3::before{
-    display: block; 
-    content: " "; 
-    margin-top: -80px; 
-    height: 80px; 
-    visibility: hidden; 
+.my-page-title {
+    text-align: center;
+}
+
+h3::before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
     pointer-events: none;
 }
 
@@ -63,4 +67,16 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     left: -25px;*/
     width: 15px;
     border-top: 1px solid #5dd08d;
+}
+
+.my-index-social-button {
+    color: white;
+    background-color: rgb(117, 178, 152)
+}
+
+.my-index-social-button:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(117, 178, 152);
+    box-shadow: 2px, 2px, 5px, black;
+    
 }
