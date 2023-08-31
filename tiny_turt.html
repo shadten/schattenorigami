@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- UIkit CSS -->
@@ -15,25 +15,20 @@
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 
-    <title>Tiny Turt</title>
+    <!-- my JS -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/artworks_nav.js" type="text/javascript" defer></script>
+
+    <title>Artworks-Tiny Turt</title>
 </head>
 
-<body>
+<body style="overflow-y: scroll">
     <!-- Navbar -->
-    <header>
-        <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-            <ul class="uk-navbar-nav">
-                <li><a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
-                        <img src="/schattenorigami/assets/logo_title_120.png">
-                    </a></li>
-                <li class="uk-active uk-text-bold"><a href="/schattenorigami/artworks.html">artworks</a></li>
-            </ul>
-        </nav>
-    </header>
+    <my-header-navbar></my-header-navbar>
 
     <!-- Versions Nav (right) -->
     <div class="my-sidebar-right uk-padding-small uk-visible@xl">
-        <ul uk-scrollspy-nav="closest: li; offset: 100" class="uk-nav uk-nav-default">
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; offset: 110; scroll: true">
             <li class="uk-nav-header uk-text-center">Versions</li>
             <li class="uk-nav-divider"></li>
             <li><a href="#version1.0">Version 1.0</a></li>
@@ -41,27 +36,15 @@
     </div>
 
     <!-- Artworks Nav (left) -->
-    <div class="my-sidebar-left uk-padding-small uk-visible@xl">
-        <ul class="uk-nav uk-nav-default">
-            <li class="uk-nav-header uk-text-center">Models</li>
-            <li class="uk-nav-divider"></li>
-            <li><a href="avicularia_alata.html">Avicularia alata</a></li>
-            <li class="uk-active"><a href="tiny_turt.html">Tiny Turt</a></li>
-            <li><a href="redback_spider.html">Redback Spider</a></li>
-        </ul>
-    </div>
+    <my-artworks-nav></my-artworks-nav>
 
     <!-- main stuff -->
-    <div class="uk-container uk-container-small uk-margin-medium-bottom">
+    <div class="uk-container uk-container-small uk-padding">
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-text-center" uk-grid>
 
-        <h1 class="my-model-title">Tiny Turt</h1>
+            <h1 class="uk-width-1-1 my-model-title">Tiny Turt</h1>
 
-        <hr>
-
-        <div class="uk-grid-medium 
-                uk-child-width-1-2@s 
-                uk-child-width-1-2@m
-                 uk-text-center" uk-grid>
+            <hr class="uk-width-1-1 uk-margin-left">
 
             <!-- Verion 1.0 -->
             <div class="uk-width-1-1">
@@ -74,7 +57,7 @@
                     about 15 minutes. Yet when folded carefully, it has a very nice effect.</p>
             </div>
 
-
+            <!-- Slideshow -->
             <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1"
                 uk-slideshow="ratio: 1:1; animation: pull">
 
@@ -94,7 +77,8 @@
 
                 <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
             </div>
-
+            
+            <!-- Model info -->
             <div>
                 <table>
                     <tr>
@@ -125,37 +109,14 @@
                     </tr>
                     <tr>
                         <td class="uk-text-bold">Diagrams</td>
-                        <td>
-                            <p class="my-comment">to be added</p>
-                        </td>
+                        <td class="my-comment">to be added</td>
                     </tr>
                 </table>
             </div>
+
         </div>
     </div>
-
-    <!-- FOOTER 
-        <footer class="uk-background-muted uk-padding uk-margin-medium-top">
-
-            <h4 class="uk-margin-small-left">
-                Social Media
-            </h4>
-
-            <div>
-                <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-small-left uk-icon-button"
-                    uk-icon="instagram"></a>
-                <a href="https://twitter.com/schattenorigami" class="uk-margin-small-left uk-icon-button"
-                    uk-icon="twitter"></a>
-                <span class="uk-margin-small-left uk-icon-button" uk-icon="discord"
-                    uk-tooltip="title: schatten#0319"></span>
-            </div>
-
-            <hr>
-
-            <div class="uk-margin-small-left">&copy schattenorigami</div>
-
-        </footer>
-        -->
+    
 </body>
 
 </html>

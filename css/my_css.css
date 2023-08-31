@@ -2,6 +2,11 @@
     color: red;
 }
 
+.my-filler {
+    height: 400px;
+    background-color:  rgb(117, 178, 152);
+}
+
 p {
     text-align: justify;
 }
@@ -15,17 +20,25 @@ td {
 .my-sidebar-right {
     position: fixed;
     right: 200px;
-    top: 110px;
+    top: 160px;
     width: auto;
-
-    background-color: white;
 }
+
+.my-text-huge {
+    font-size: 50px;
+}
+
+.my-vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 
 .my-sidebar-left {
     position: fixed;
-    /*left: 25px;
-    top: 125px;*/
     left: 0px;
     top: 80px;
     bottom: 0px;
@@ -43,30 +56,20 @@ td {
     text-align: center;
 }
 
-h3::before {
-    display: block;
-    content: " ";
-    margin-top: -80px;
-    height: 80px;
-    visibility: hidden;
-    pointer-events: none;
-}
-
 
 div.my-sidebar-right>ul.uk-nav>.uk-active>a::before {
     content: "";
     position: relative;
-    width: 15px;
-    border-top: 1px solid #5dd08d;
+    width: 5px;
+    border-top: 5px solid  rgb(117, 178, 152);
 }
+
 
 div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     content: "";
     position: static;
-    /*top: 15px;
-    left: -25px;*/
-    width: 15px;
-    border-top: 1px solid #5dd08d;
+    width: 5px;
+    border-top: 5px solid  rgb(117, 178, 152);
 }
 
 .my-index-social-button {
@@ -78,5 +81,19 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     color: rgb(77, 77, 77);
     background-color: rgb(117, 178, 152);
     box-shadow: 2px, 2px, 5px, black;
-    
+}
+
+.my-button {
+    background-color: rgb(77, 77, 77);
+    color: white
+}
+
+.my-button:hover {
+    color: rgb(117, 178, 152);
+}
+
+
+ul.uk-subnav>.uk-active > a {
+    background-color: rgb(117, 178, 152);
+    color :white
 }

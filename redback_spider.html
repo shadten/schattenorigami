@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- UIkit CSS -->
@@ -15,25 +15,20 @@
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 
-    <title>Redback Spider</title>
+    <!-- my JS -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/artworks_nav.js" type="text/javascript" defer></script>
+
+    <title>Artworks-Redback Spider</title>
 </head>
 
-<body>
+<body style="overflow-y: scroll">
     <!-- Navbar -->
-    <header>
-        <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-            <ul class="uk-navbar-nav">
-                <li><a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
-                        <img src="/schattenorigami/assets/logo_title_120.png">
-                    </a></li>
-                <li class="uk-active uk-text-bold"><a href="/schattenorigami/artworks.html">artworks</a></li>
-            </ul>
-        </nav>
-    </header>
+    <my-header-navbar></my-header-navbar>
 
     <!-- Versions Nav (right) -->
     <div class="my-sidebar-right uk-padding-small uk-visible@xl">
-        <ul uk-scrollspy-nav="closest: li; offset: 100" class="uk-nav uk-nav-default">
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; offset: 110; scroll: true">
             <li class="uk-nav-header uk-text-center">Versions</li>
             <li class="uk-nav-divider"></li>
             <li><a href="#version1.0">Version 1.0</a></li>
@@ -41,27 +36,15 @@
     </div>
 
     <!-- Artworks Nav (left) -->
-    <div class="my-sidebar-left uk-padding-small uk-visible@xl">
-        <ul class="uk-nav uk-nav-default">
-            <li class="uk-nav-header uk-text-center">Models</li>
-            <li class="uk-nav-divider"></li>
-            <li><a href="avicularia_alata.html">Avicularia alata</a></li>
-            <li><a href="tiny_turt.html">Tiny Turt</a></li>
-            <li class="uk-active"><a href="redback_spider.html">Redback Spider</a></li>
-        </ul>
-    </div>
+    <my-artworks-nav></my-artworks-nav>
 
     <!-- main stuff -->
-    <div class="uk-container uk-container-small uk-margin-medium-bottom">
+    <div class="uk-container uk-container-small uk-padding">
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-text-center" uk-grid>
 
-        <h1 class="my-model-title">Redback Spider</h1>
+            <h1 class="uk-width-1-1 my-model-title">Redback Spider</h1>
 
-        <hr>
-
-        <div class="uk-grid-medium 
-                uk-child-width-1-2@s 
-                uk-child-width-1-2@m
-                 uk-text-center" uk-grid>
+            <hr class="uk-width-1-1 uk-margin-left">
 
             <!-- Verion 1.0 -->
             <div class="uk-width-1-1">
@@ -76,12 +59,14 @@
                     The reference point on the bottom can be measured, about 0.4058 from the left edge. Or you can use
                     the folding sequence indicated by the light blue lines to find another reference point. The diagonal
                     through the bottom right corner brings the bottom left corner of the paper to the vertical central
-                    line. Thanks to 
-                    <a href="https://www.instagram.com/bodo_ori/" target="_blank" class="uk-link-muted"><span  uk-icon="icon: instagram; ratio: 0.8"></span> bodo_ori </a> for showing me this folding sequence!
+                    line. Thanks to
+                    <a href="https://www.instagram.com/bodo_ori/" target="_blank" class="uk-link-muted"><span
+                            uk-icon="icon: instagram; ratio: 0.8"></span> bodo_ori </a> for showing me this folding
+                    sequence!
                 </p>
             </div>
 
-
+            <!-- Slideshow -->
             <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1"
                 uk-slideshow="ratio: 1:1; animation: pull">
 
@@ -105,6 +90,7 @@
                 <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
             </div>
 
+            <!-- Model info -->
             <div>
                 <table>
                     <tr>
@@ -135,9 +121,9 @@
                     </tr>
                 </table>
             </div>
+
         </div>
     </div>
-
 </body>
 
 </html>

@@ -15,145 +15,200 @@
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 
+    <!-- my JS -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+
     <title>Artworks</title>
 </head>
 
 <body>
-    <nav class="uk-navbar-container uk-margin-small-bottom" uk-navbar uk-sticky>
-        <ul class="uk-navbar-nav">
-            <li><a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
-                <img src="/schattenorigami/assets/logo_title_120.png">
-            </a></li>
-            <li class="uk-active uk-text-bold"><a href="/schattenorigami/artworks.html">artworks</a></li>
-        </ul>
-    </nav>
+    <!-- Navbar -->
+    <my-header-navbar></my-header-navbar>
 
-    <div class="uk-container uk-container">
+    <div class="uk-container uk-padding" uk-height-viewport="offset-bottom: true">
         <h1 class="my-page-title">Artworks</h1>
         <hr>
         <p>Here you can find my original origami designs. Click on one to see additional information, previous
-            versions, download the CP or, if available, the diagrams.</p>
+            versions and download the CP or diagrams, if available.</p>
 
-        <div class="uk-grid-small
-                uk-child-width-1-2@s 
-                uk-child-width-1-3@m
-                uk-child-width-1-4@l
-                uk-text-center" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 100;">
+        <div uk-filter="target: .js-filter">
 
-            <div>
-                <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
-                    <a href="/schattenorigami/avicularia_alata.html" class="uk-link-muted">
+            <div class="uk-grid-small uk-child-width-1-2@m uk-background-muted uk-margin-auto" uk-grid>
+                <div class="uk-flex uk-flex-left">
+                    <ul class="uk-subnav uk-subnav-divider uk-subnav-pill">
+                        <li uk-filter-control="sort: data-date; order: desc"  class="uk-active" ><a>newest</a></li>
+                        <li uk-filter-control="sort: data-date"><a>oldest</a></li>
+                        <li uk-filter-control="sort: data-name"><a>A-Z</a></li>
+                        <li uk-filter-control="sort: data-name; order: desc"><a>Z-A</a></li>
+                    </ul>
+                </div>
+
+                <div class="uk-flex uk-flex-right@m">
+                    <ul class="uk-subnav uk-subnav-divider uk-subnav-pill">
+                        <li class="uk-active" uk-filter-control><a>All</a></li>
+                        <li uk-filter-control=".tag-CP"><a><img src="assets/icons/CP_icon_35.png" uk-tooltip="CP available"></a></li>
+                        <li uk-filter-control=".tag-diagrams"><a><img src="assets/icons/diagrams_icon_35.png" uk-tooltip="Diagrams available"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="js-filter
+                    uk-grid-small
+                    uk-child-width-1-2@s 
+                    uk-child-width-1-3@m
+                    uk-child-width-1-4@l
+                    uk-text-center" uk-grid uk-height-match="target: > li > .uk-card">
+                <!-- uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 100;"> -->
+
+                <li data-date="2021-02" data-name="Avicularia alata" class="tag-CP">
+                    <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/CP_icon_35.png" uk-tooltip="CP available"></img>
+                        </div>
+
+                        <a href="/schattenorigami/avicularia_alata.html" class="uk-link-muted">
+                            <div class="uk-card-media-top">
+                                <img src="assets/artwork_imgs/avicularia_alata_1.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Avicularia alata</h3>
+                                February 2021
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li data-date="2021-9" data-name="Tiny Turt" class="tag-CP tag-diagrams">
+                    <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/diagrams_icon_35.png" uk-tooltip="Diagrams available"></img>
+                            <img src="assets/icons/CP_icon_35.png" uk-tooltip="CP available"></img>
+                        </div>
+
+                        <a href="/schattenorigami/tiny_turt.html" class="uk-link-muted">
+                            <div class="uk-card-media-top">
+                                <img src="assets/artwork_imgs/tiny_turt_1.jpeg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Tiny Turt</h3>
+                                September 2021
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li data-date="2019-4" data-name="Redback Spider" class="tag-CP">
+                    <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/CP_icon_35.png" uk-tooltip="CP available"></img>
+                        </div>
+
+                        <a href="/schattenorigami/redback_spider.html" class="uk-link-muted">
+                            <div class="uk-card-media-top">
+                                <img src="assets/artwork_imgs/redback_spider_1.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Redback Spider</h3>
+                                April 2019
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li data-date="2020-9" data-name="Simple Demon" class="tag-CP">
+                    <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/CP_icon_35.png" uk-tooltip="CP available"></img>
+                        </div>
+
+                        <a href="/schattenorigami/simple_demon.html" class="uk-link-muted">
+                            <div class="uk-card-media-top">
+                                <img src="assets/artwork_imgs/simple_demon_1.jpeg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Simple Demon</h3>
+                                September 2020
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li data-date="0000-0" data-name="placeholder">
+                    <div class="uk-card uk-card-default uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="assets/artwork_imgs/avicularia_alata_1.jpg" alt="">
+                            <img src="assets/logo_1000.png" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Avicularia alata</h3>
+                            <h3 class="uk-card-title">placeholder</h3>
+                            date
                         </div>
-                    </a>
-                </div>
-            </div>
-
-            <div>
-                <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
-                    <div class="uk-position-top-right uk-padding-small" uk-tooltip="Diagrams available">
-                        <img src="assets/diagrams_icon_25.png"></img>
                     </div>
-                    <a href="/schattenorigami/tiny_turt.html" class="uk-link-muted">
+                </li>
+
+                <li data-date="0000-0" data-name="placeholder">
+                    <div class="uk-card uk-card-default uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="assets/artwork_imgs/tiny_turt_1.jpeg" alt="">
+                            <img src="assets/logo_1000.png" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Tiny Turt</h3>
+                            <h3 class="uk-card-title">placeholder</h3>
+                            date
                         </div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </li>
 
-            <div>
-                <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
-                    <a href="/schattenorigami/redback_spider.html" class="uk-link-muted">
+                <li data-date="0000-0" data-name="placeholder">
+                    <div class="uk-card uk-card-default uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="assets/artwork_imgs/redback_spider_1.jpg" alt="">
+                            <img src="assets/logo_1000.png" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Redback Spider</h3>
+                            <h3 class="uk-card-title">placeholder</h3>
+                            date
                         </div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </li>
 
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover">
-                    <div class="uk-card-media-top">
-                        <img src="assets/logo_1000.png" alt="">
+                <li data-date="0000-0" data-name="placeholder">
+                    <div class="uk-card uk-card-default uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="assets/logo_1000.png" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">placeholder</h3>
+                            date
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">schattenorigami</h3>
-                    </div>
-                </div>
-            </div>
+                </li>
 
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover">
-                    <div class="uk-card-media-top">
-                        <img src="assets/logo_1000.png" alt="">
+                <li data-date="0000-0" data-name="placeholder">
+                    <div class="uk-card uk-card-default uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="assets/logo_1000.png" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">placeholder</h3>
+                            date
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">schattenorigami</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover">
-                    <div class="uk-card-media-top">
-                        <img src="assets/logo_1000.png" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">schattenorigami</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover">
-                    <div class="uk-card-media-top">
-                        <img src="assets/logo_1000.png" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">schattenorigami</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover">
-                    <div class="uk-card-media-top">
-                        <img src="assets/logo_1000.png" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">schattenorigami</h3>
-                    </div>
-                </div>
-            </div>
-
+                </li>
+            </ul>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <div class="uk-background-muted uk-padding uk-margin-medium-top">
+    <div class="uk-background-muted uk-padding">
 
         <h4 class="uk-margin-small-left">
             Social Media
         </h4>
 
         <div>
-            <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-small-left uk-icon-button" target="_blank"
-                uk-icon="instagram"></a>
+            <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-small-left uk-icon-button"
+                target="_blank" uk-icon="instagram"></a>
             <a href="https://twitter.com/schattenorigami" class="uk-margin-small-left uk-icon-button" target="_blank"
                 uk-icon="twitter"></a>
-            <span class="uk-margin-small-left uk-icon-button" uk-icon="discord"
-                uk-tooltip="schatten#0319"></span>
+            <span class="uk-margin-small-left uk-icon-button" uk-icon="discord" uk-tooltip="schatten#0319"></span>
         </div>
 
         <hr>

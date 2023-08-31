@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="css/my_css.css">
+
+    <!-- UIkit JS -->
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <!-- my JS -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/artworks_nav.js" type="text/javascript" defer></script>
+
+    <title>Artworks-Simple Demon</title>
+</head>
+
+<body style="overflow-y: scroll">
+    <!-- Navbar -->
+    <my-header-navbar></my-header-navbar>
+
+    <!-- Versions Nav (right) -->
+    <div class="my-sidebar-right uk-padding-small uk-visible@xl">
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; offset: 110; scroll: true">
+            <li class="uk-nav-header uk-text-center">Versions</li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#version1.0">Version 1.0</a></li>
+        </ul>
+    </div>
+
+    <!-- Artworks Nav (left) -->
+    <my-artworks-nav></my-artworks-nav>
+
+    <!-- main stuff -->
+    <div class="uk-container uk-container-small uk-padding">
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-text-center" uk-grid>
+
+            <h1 class="uk-width-1-1 my-model-title">Simple Demon</h1>
+
+            <hr class="uk-width-1-1 uk-margin-left">
+
+            <!-- Verion 1.0 -->
+            <div class="uk-width-1-1">
+                <h3 id="version1.0">Version 1.0</h3>
+                <p>
+                    I came up with this design when I was playing around with a test fold of a CP that I drew almost 2
+                    years ago (i.e. in 2018). I wanted to design a simple humanoid model for quite a while now, so unexpectedly
+                    stumbling across this structure was very pleasing. It can be modified pretty easily, which makes it
+                    interesting to play around with.
+                    <br>
+                    I didn't include the colour change of the tail in the CP because I thought It'd be more confusing
+                    than helpful, but it can be done just by bringing the flap to the back between the legs and then
+                    wrapping the layers around.
+                </p>
+            </div>
+
+            <!-- Slideshow -->
+            <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1"
+                uk-slideshow="ratio: 1:1; animation: pull">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="assets/artwork_imgs/simple_demon_1.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="assets/artwork_imgs/simple_demon_2.jpeg" alt="" uk-cover>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slideshow-item="next"></a>
+
+                <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+            
+            <!-- Model info -->
+            <div>
+                <table>
+                    <tr>
+                        <td class="uk-text-bold">Created</td>
+                        <td>September 2020</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-text-bold">Paper</td>
+                        <td>20cm square of double tissue</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-text-bold">Time</td>
+                        <td>~2 hours</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-text-bold">Grid</td>
+                        <td>16x16 parallel to edges (= 32x32 diagonal)</td>
+                    </tr>
+                    <tr>
+                        <td class="uk-text-bold">CP</td>
+                        <td>
+                            <div>
+                                <div uk-lightbox>
+                                    <a class="uk-inline" href="assets/CPs/Simple Demon v1.0.png">
+                                        <img src="assets/CPs/Simple Demon v1.0.png" width="500">
+                                    </a>
+                                </div>
+                                <a class="uk-button uk-button-text" href="assets/CPs/Simple Demon v1.0.png"
+                                    download>Download CP</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

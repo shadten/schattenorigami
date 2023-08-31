@@ -1,0 +1,216 @@
+[33mcommit c93249b84d1b2613b9cfeb6ff23451cd11421e30[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Sep 19 17:25:24 2022 +0200
+
+    updated index.html, added redback_spider.html
+
+[33mcommit be1758882ee6b70395e5eada6de10d3c41f0c0f2[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Sep 19 00:13:34 2022 +0200
+
+    updated index.html
+
+[33mcommit a126d56255d173eb98c073f02f6ee1a74bdf2cb7[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Sep 18 01:48:58 2022 +0200
+
+    changed sidenavs, added logo, updated index.html
+
+[33mcommit e81bb90eab80e6c6fdc065307d2b714306666c01[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sat Sep 17 23:25:19 2022 +0200
+
+    removed footer, fixed scrollspy nav
+
+[33mcommit 3e8b771cba5ae37fceba329cb034bd46faa6416b[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Fri Sep 16 18:03:16 2022 +0200
+
+    fixed sticky header scroll
+
+[33mcommit 12a77475d05e38195ba7985a4a281ae7b9c0f8ee[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Fri Sep 16 17:55:19 2022 +0200
+
+    fixed sticky header scroll
+
+[33mcommit 1318d77e4d9f81983e397f986f1a21bf7f811c0e[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Fri Sep 16 16:44:44 2022 +0200
+
+    small fix
+
+[33mcommit 6dba44316fad29697622802d3e70632d0bde4dd9[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Wed Aug 24 19:50:35 2022 +0200
+
+    added diagram icon
+
+[33mcommit 58358508adc7f8d2429e2da0b5f1e0cc2b861fb6[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Wed Apr 6 23:39:45 2022 +0200
+
+    added tiny_turt_html
+
+[33mcommit 2160d9be3bae873d20909f2872b570da82334306[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Wed Apr 6 23:21:46 2022 +0200
+
+    alata.html sidenav left
+
+[33mcommit 18ce1d1da6c3b6d8b61f606e1c92fdd3bfa6633f[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Wed Apr 6 00:18:14 2022 +0200
+
+    avicularia_alata.html sidenav and fixed layout in artworks.html
+
+[33mcommit 12bf445884e9f8d4af3e1d79572a2ea994ee1c4a[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Tue Apr 5 23:04:22 2022 +0200
+
+    added CPs to avicularia_alata.html
+
+[33mcommit 33028966557fd4eb9f36f9005dddbd2c68d999ba[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Tue Apr 5 12:54:04 2022 +0200
+
+    footer, changed navbar
+
+[33mcommit 337416a0b3c97fc06a54cbe1ba0e9b143dd43be6[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Tue Apr 5 01:19:31 2022 +0200
+
+    fixed avicularia_alata.html layout
+
+[33mcommit 2b8e61e056a6ff2cdd148da639ca00cd6900d4b4[m
+Author: shadten_laptop <manuelpberger@gmail.com>
+Date:   Mon Apr 4 16:02:32 2022 +0200
+
+    navbar sticky
+
+[33mcommit be242c21e8bca52f0e6bd8344a2331d9a565d44e[m
+Author: shadten_laptop <manuelpberger@gmail.com>
+Date:   Mon Apr 4 13:28:14 2022 +0200
+
+    link whole a. alata card
+
+[33mcommit ed89a3cc2dea4094fa245b52abd38de3da1080a6[m
+Author: shadten_laptop <manuelpberger@gmail.com>
+Date:   Mon Apr 4 13:21:25 2022 +0200
+
+    fixed navbar active
+
+[33mcommit e01116a6d7c13c65f46bab9a54b8c644d6cfaa0d[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 01:38:38 2022 +0200
+
+    fixed a alata slideshow
+
+[33mcommit fc69e393aec76deafac45fdebc52a8a5a82c71fb[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 01:31:37 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit 073d6751fe7181f864259a7df2c31a36ca215e24[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 01:22:01 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit 707ee2d277839b8c3194c87dafdf6e110f7bd6d6[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 01:16:43 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit ad10cd731fb686e4f048bf09b176f0ac053fd3d1[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 01:07:06 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit 7fd158c3e71107f8a4819fe7302c652ad4d87b34[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 00:57:47 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit afab61cecf1b1c0ed8bb102313aacb0a6388df23[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 00:56:38 2022 +0200
+
+    fixed a alata anker
+
+[33mcommit b27dc30f26295981f1b88fc6e2164f8d9341fc8c[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 00:50:49 2022 +0200
+
+    scrollsply to artworks, anker a. alata
+
+[33mcommit 4152f625d710b6a8554b239a129c758c6be98c2d[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Mon Apr 4 00:22:53 2022 +0200
+
+    added first few cards to artworks.html
+
+[33mcommit b17f04550fda347a086f216792eac07c57395500[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 23:41:20 2022 +0200
+
+    fixed link to artworks
+
+[33mcommit 5e7e0d680a1eec1662be83a1449dd102c88c59fd[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 23:35:30 2022 +0200
+
+    formatted artworks.html
+
+[33mcommit ef033a4face5d4046caa2f1e155c42eca39b121c[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 23:27:00 2022 +0200
+
+    added navbar and artworks.html
+
+[33mcommit 08c26817fb12be352577ca5a05e43eaba85b9428[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 23:22:23 2022 +0200
+
+    added navbar and artworks.html
+
+[33mcommit 985122fb4982c8a641c940eec7a4b8ccd1c21929[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 23:03:43 2022 +0200
+
+    added UIKit
+
+[33mcommit 129d11784b4f082fd20af1ffe98f27f615bceb75[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 22:48:54 2022 +0200
+
+    small test
+
+[33mcommit 6f9040d72a1dd9b82139b06312049b3667ae97a6[m
+Merge: 509cb82 62504f6
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 22:45:42 2022 +0200
+
+    Merge branch 'main' of https://github.com/shadten/schattenorigami
+
+[33mcommit 509cb825cb9269bda384cf6afed0b0cb26224064[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 22:44:46 2022 +0200
+
+    added index.html
+
+[33mcommit 62504f6cbd834da0ea7e923c6eadceaa0fc49ac3[m
+Author: shadten <manuelpberger@gmail.com>
+Date:   Sun Apr 3 22:22:46 2022 +0200
+
+    initialcommit
+
+[33mcommit ca2bcd62bb48722eae03bbe7f38e2ccf30917032[m
+Author: shadten <102590420+shadten@users.noreply.github.com>
+Date:   Sun Apr 3 22:14:05 2022 +0200
+
+    Initial commit
