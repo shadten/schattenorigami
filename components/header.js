@@ -14,7 +14,7 @@ class Header extends HTMLElement {
             if (name === docTitle.split('-')[0]) {
                 active_str = ' uk-active'
             }
-            html_str += '<li class="uk-text-bold' + active_str + '"><a href="/schattenorigami/' + name + '.html">' + name + '</a></li>';
+            html_str += '<li class="uk-text-bold' + active_str + '"><a href="/schattenorigami/' + name.toLowerCase() + '.html">' + name + '</a></li>';
         }
 
         this.innerHTML = `
