@@ -18,26 +18,23 @@ function getModelCardHtml(model) {
     const imgPath = model["img_paths"][0][0];
     const artworkPage = model["artwork_page_path"];
     
-    tagsStr = '';
-    iconsStr = ``
+    var filterStr = '';
+    var iconsStr = '';
     if (diagram) {
-        tagsStr += `tag-diagrams `
+        filterStr += `tag-diagrams `
         iconsStr += `<img src="assets/icons/diagrams_icon.svg" width="35" uk-svg></img>`
     }
     if (cp) {
-        tagsStr += `tag-CP `;
+        filterStr += `tag-CP `;
         iconsStr += `<img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>`
     }
 
-    htmlStr = `
-        <li data-date="` + dateNum + `" data-name="` + name + `" class="` + tagsStr + `">
-            <div class="uk-card uk-card-default uk-link-toggle uk-card-hover">
-                <div class="uk-position-top-right uk-padding-small"> 
-                    ` + iconsStr + `
-                </div>
 
+    htmlStr = `
+        <li data-date="` + dateNum + `" data-name="` + name + `" class="` + filterStr + `">
+            <div class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
                 <a href="` + artworkPage + `" class="uk-link-muted">
-                    <div class="uk-card-media-top">
+                    <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
                         <img src="`+ imgPath + `" alt="">
                     </div>
                     <div class="uk-card-body">
@@ -45,6 +42,9 @@ function getModelCardHtml(model) {
                         ` + date + ` 
                     </div>
                 </a>
+                <div class="uk-position-top-right uk-padding-small"> 
+                    ` + iconsStr + `
+                </div>
             </div>
         </li>
 

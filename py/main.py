@@ -19,23 +19,23 @@ captions = [
          "Meanwhile I almost had a mental breakdown* spending an unreasonably huge amount of time fixing errors in the CP where there weren't any, because ORIPA went insane.",
          "Fortunately, it all turned out ok in the end, so I'm counting that as a win."
     ],
-] # str 
+] # list of str 
 nums_of_imgs = [2] # int
 dates= ["August 2020"] # str
 papers = ["34 cm square of single tissue"] # str
 times = ["~4 hours"] # str
 grids = None # None or str
-trivias = [None] # str
+trivias = [None] # None or str
 notes = ["Diagonal reference line (light blue) at 22.5° through the center, gray corners folded inwards"] # str
 cps = [True] # bool
 diagrams = [False] # bool
 
-cp_file_extension="png"
-imgs_file_extension="jpg"
+cp_file_extension = "png"
+imgs_file_extension = "jpg"
 
 # ----- FLAGS -----
-do_new_model = True# bool
-do_new_version = False# bool
+do_new_model = True # bool
+do_new_version = False # bool
 
 
 

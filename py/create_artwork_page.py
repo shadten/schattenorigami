@@ -20,6 +20,11 @@ class my_header_navbar(html_tag):
         sb.append("<my-header-navbar></my-header-navbar>")
         return sb 
     
+class my_mobile_nav(html_tag):
+    def _render(self, sb, indent_level=1, indent_str='  ', pretty=True, xhtml=False):
+        sb.append("<my-mobile-nav></my-mobile-nav>")
+        return sb 
+    
 class my_artworks_nav(html_tag):
     def _render(self, sb, indent_level=1, indent_str='  ', pretty=True, xhtml=False):
         sb.append("<my-artworks-nav></my-artworks-nav>")
@@ -65,6 +70,11 @@ def create_artwork_page_from_model(model):
         my_header_navbar()
         emptyline()
         
+        # Mobile Nav
+        comment("Mobile Navigation")
+        my_mobile_nav()
+        emptyline()
+                
         # Versions Nav (right)
         comment("Versions Nav (right)")
         with div(_class="my-sidebar-right uk-padding-small uk-visible@xl"):

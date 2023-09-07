@@ -18,15 +18,14 @@ class Header extends HTMLElement {
         }
 
         this.innerHTML = `
-            <nav class="uk-background-top-right uk-background-cover uk-margin-small-bottom uk-background-muted
-                    uk-background-image@s" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar uk-sticky>
+            <nav class="uk-visible@s uk-background-top-right uk-background-cover uk-margin-small-bottom uk-background-muted" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar uk-sticky>
                 <ul id="navbar" class="uk-navbar-nav uk-background-muted"">
                     <li>
                         <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
                             <img src="/schattenorigami/assets/logo_title_120.png">
                         </a>
                     </li>
-        ` + html_str + `</ul></nav></header>`;
+            ` + html_str + `</ul></nav>`;
     }
 }
 
