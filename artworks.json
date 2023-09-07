@@ -1,0 +1,451 @@
+{
+    "name": "artworks",
+    "model_list": [
+        {
+            "name": "Avicularia alata",
+            "tags": [
+                "box-pleated",
+                "spider"
+            ],
+            "version_titles": [
+                "1.1",
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "This is a slightly updated version of my winged taratula. The only real difference is the abdomen of the spider, the opisthosoma, which now has a more hairy texture. I also tried to get a better pose compared to the previous fold."
+                ],
+                [
+                    "The genus 'Avicularia' contains several species of tarantulas and 'alata' is Latin and means 'winged'. So the name of this design basically means winged tarantula, but that just doesn't sound as fancy. But don't worry, fortunately these monsters don't exist. Anyway, I really like how this model turned out. The design process was much shorter than I expected. It's a pretty straightforward box pleated design, not too much to precrease (still not particularly easy to collapse or shape)."
+                ]
+            ],
+            "nums_of_imgs": [
+                3,
+                3
+            ],
+            "dates": [
+                "February 2021",
+                "June 2020"
+            ],
+            "dates_num": [
+                "2021-2",
+                "2020-6"
+            ],
+            "papers": [
+                "47cm square of double tissue",
+                "46cm square of double tissue"
+            ],
+            "times": [
+                "~9 hours",
+                "~6.5 hours"
+            ],
+            "grids": [
+                "52x52",
+                "52x52"
+            ],
+            "trivias": [
+                null,
+                "This model won the Origami-dan 2020 June design contest."
+            ],
+            "notes": [
+                null,
+                null
+            ],
+            "cps": [
+                true,
+                true
+            ],
+            "diagrams": [
+                false,
+                false
+            ],
+            "num_of_versions": 2,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "avicularia_alata",
+            "artwork_page_path": "/schattenorigami/artwork_pages/avicularia_alata.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/avicularia_alata_v1_1_cp.png",
+                "/schattenorigami/assets/CPs/avicularia_alata_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img3.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_0_img3.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Bat",
+            "tags": [
+                "animal"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I'm pretty happy with this model. It's not hard to fold and I think the CP looks quite interesting (which maybe does make it a bit hard to solve). The bat has a pretty large wingspan which resulted in it not fitting inside my light box, so taking the picture was pretty... interesting..",
+                    "Overall this seems like a model that I want to diagram sometime."
+                ]
+            ],
+            "nums_of_imgs": [
+                1
+            ],
+            "dates": [
+                "October 2021"
+            ],
+            "dates_num": [
+                "2021-10"
+            ],
+            "papers": [
+                "30cm triple tissue"
+            ],
+            "times": [
+                "~1.5 hours"
+            ],
+            "grids": null,
+            "trivias": [
+                null
+            ],
+            "notes": [
+                null
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "bat",
+            "artwork_page_path": "/schattenorigami/artwork_pages/bat.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/bat_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/bat_v1_0_img1.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Pholcus phalangioides",
+            "tags": [
+                "box-pleated",
+                "spider"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "Honestly, this model was quite a handful.",
+                    "Initially I wanted to design a simple little model of a not-too-detailed little spider.",
+                    "But in order to make the legs very long relative to the body, I had to make the body very small. That resulted in a lot of excess paper which, because I didn't want to waste it, led me to give the spider some eggs to take care of. In the end, the model turned out way more tedious to fold than I anticipated and the collapse with single tissue was a mess.",
+                    "Meanwhile I almost had a mental breakdown* spending an unreasonably huge amount of time fixing errors in the CP where there weren't any, because ORIPA went insane.",
+                    "Fortunately, it all turned out ok in the end, so I'm counting that as a win."
+                ]
+            ],
+            "nums_of_imgs": [
+                2
+            ],
+            "dates": [
+                "August 2020"
+            ],
+            "dates_num": [
+                "2020-8"
+            ],
+            "papers": [
+                "34 cm square of single tissue"
+            ],
+            "times": [
+                "~4 hours"
+            ],
+            "grids": null,
+            "trivias": [
+                null
+            ],
+            "notes": [
+                "Diagonal reference line (light blue) at 22.5\u00b0 through the center, gray corners folded inwards"
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "pholcus_phalangioides",
+            "artwork_page_path": "/schattenorigami/artwork_pages/pholcus_phalangioides.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/pholcus_phalangioides_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/pholcus_phalangioides_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/pholcus_phalangioides_v1_0_img2.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Redback Spider",
+            "tags": [
+                "circle-packed",
+                "color change",
+                "spider"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I had the idea to design a spider with a colour change on the abdomen a few weeks ago and first tried to design it using box pleating (like I usually do). This time, though, I ended up using Robert Lang's TreeMaker, so it's a circle packed structure. (Actually my first real non-box pleated design.) Although there are some things I'd like to change in future revisions, I'm really happy with how it turned out.",
+                    "The reference point on the bottom can be measured, about 0.4058 from the left edge. Or you can use the folding sequence indicated by the light blue lines to find another reference point. The diagonal through the bottom right corner brings the bottom left corner of the paper to the vertical central line. Thanks to  bodo_ori for showing me this folding sequence!"
+                ]
+            ],
+            "nums_of_imgs": [
+                3
+            ],
+            "dates": [
+                "April 2019"
+            ],
+            "dates_num": [
+                "2019-4"
+            ],
+            "papers": [
+                "35cm square of double tissue"
+            ],
+            "times": [
+                "~3.5 hours"
+            ],
+            "grids": null,
+            "trivias": [
+                null
+            ],
+            "notes": [
+                "Gray corners folded inwards"
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "redback_spider",
+            "artwork_page_path": "/schattenorigami/artwork_pages/redback_spider.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/redback_spider_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/redback_spider_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/redback_spider_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/redback_spider_v1_0_img3.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Simple Catgirl",
+            "tags": [
+                "box-pleated",
+                "color change",
+                "humanoid"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "A variation of my Simple Demon. I again didn't include the colour change of the tail in the CP."
+                ]
+            ],
+            "nums_of_imgs": [
+                2
+            ],
+            "dates": [
+                "September 2020"
+            ],
+            "dates_num": [
+                "2020-9"
+            ],
+            "papers": [
+                "\t20cm square of double tissue"
+            ],
+            "times": [
+                "~2 hours"
+            ],
+            "grids": [
+                "16x16 parallel to edges (= 32x32 diagonal)"
+            ],
+            "trivias": [
+                null
+            ],
+            "notes": [
+                null
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpeg",
+            "name_snake": "simple_catgirl",
+            "artwork_page_path": "/schattenorigami/artwork_pages/simple_catgirl.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/simple_catgirl_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/simple_catgirl_v1_0_img1.jpeg",
+                    "/schattenorigami/assets/artwork_imgs/simple_catgirl_v1_0_img2.jpeg"
+                ]
+            ]
+        },
+        {
+            "name": "Simple Demon",
+            "tags": [
+                "box-pleated",
+                "color change",
+                "humanoid"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I came up with this design when I was playing around with a test fold of a CP that I drew almost 2 years ago (i.e. in 2018). I wanted to design a simple humanoid model for quite a while now, so unexpectedly stumbling across this structure was very pleasing. It can be modified pretty easily, which makes it interesting to play around with.",
+                    "I didn't include the colour change of the tail in the CP because I thought It'd be more confusing than helpful, but it can be done just by bringing the flap to the back between the legs and then wrapping the layers around."
+                ]
+            ],
+            "nums_of_imgs": [
+                2
+            ],
+            "dates": [
+                "September 2020"
+            ],
+            "dates_num": [
+                "2020-9"
+            ],
+            "papers": [
+                "20cm square of double tissue"
+            ],
+            "times": [
+                "~2 hours"
+            ],
+            "grids": [
+                "16x16 parallel to edges (= 32x32 diagonal)"
+            ],
+            "trivias": [
+                null
+            ],
+            "notes": [
+                null
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpeg",
+            "name_snake": "simple_demon",
+            "artwork_page_path": "/schattenorigami/artwork_pages/simple_demon.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/simple_demon_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/simple_demon_v1_0_img1.jpeg",
+                    "/schattenorigami/assets/artwork_imgs/simple_demon_v1_0_img2.jpeg"
+                ]
+            ]
+        },
+        {
+            "name": "Tiny Turt",
+            "tags": [
+                "22.5&deg",
+                "animal"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "This is a relatively simple model that does not employ any special design technique and requires almost no shaping after the actual folding process. It can be folded very quickly too, it takes me about 15 minutes. Yet when folded carefully, it has a very nice effect."
+                ]
+            ],
+            "nums_of_imgs": [
+                2
+            ],
+            "dates": [
+                "September 2021"
+            ],
+            "dates_num": [
+                "2021-9"
+            ],
+            "papers": [
+                "15cm square of tracing paper + tissue paper"
+            ],
+            "times": [
+                "~15 minutes"
+            ],
+            "grids": null,
+            "trivias": [
+                null
+            ],
+            "notes": [
+                null
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                true
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpeg",
+            "name_snake": "tiny_turt",
+            "artwork_page_path": "/schattenorigami/artwork_pages/tiny_turt.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/tiny_turt_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/tiny_turt_v1_0_img1.jpeg",
+                    "/schattenorigami/assets/artwork_imgs/tiny_turt_v1_0_img2.jpeg"
+                ]
+            ]
+        }
+    ],
+    "model_names": [
+        "Avicularia alata",
+        "Bat",
+        "Pholcus phalangioides",
+        "Redback Spider",
+        "Simple Catgirl",
+        "Simple Demon",
+        "Tiny Turt"
+    ],
+    "no_duplicates": true,
+    "savefile": "../artworks.json"
+}

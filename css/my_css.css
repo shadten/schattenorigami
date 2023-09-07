@@ -2,11 +2,6 @@
     color: red;
 }
 
-.my-filler {
-    height: 400px;
-    background-color:  rgb(117, 178, 152);
-}
-
 p {
     text-align: justify;
 }
@@ -19,23 +14,15 @@ td {
 
 .my-sidebar-right {
     position: fixed;
-    right: 200px;
+    left: 50%;
+    margin-left: 550px;
     top: 160px;
-    width: auto;
+    width: 100px;
 }
 
 .my-text-huge {
     font-size: 50px;
 }
-
-.my-vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
 
 .my-sidebar-left {
     position: fixed;
@@ -56,6 +43,7 @@ td {
     text-align: center;
 }
 
+div.my-sidebar-right>ul.uk-nav>:hover>a::before,
 div.my-sidebar-right>ul.uk-nav>.uk-active>a::before {
     content: "";
     position: relative;
@@ -94,4 +82,11 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
 ul.uk-subnav>.uk-active > a {
     background-color: rgb(117, 178, 152);
     color :white
+}
+
+.my-label {
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(117, 178, 152);
 }
