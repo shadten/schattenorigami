@@ -57,7 +57,7 @@ class MobileNav extends HTMLElement {
                 <ul class="uk-navbar-nav uk-background-muted"">
                     <li>
                         <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html" uk-toggle="target: #offcanvas-nav-primary">
-                            <img src="/schattenorigami/assets/logo_title_120.png">
+                            <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
                         </a>
                     </li>
                 </ul>
@@ -67,17 +67,17 @@ class MobileNav extends HTMLElement {
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                     <button class="uk-offcanvas-close" uk-close></button>
 
-                    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical"> 
+                    <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical"> 
                         <li>
                             <a class="uk-logo" href="/schattenorigami/index.html">
-                                <img src="/schattenorigami/assets/logo_title_120.png">
+                                <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
                             </a>
                         </li>`
                         + mainNavStr + `
+                        <li class="uk-nav-header uk-margin-top uk-margin-left">Models</li>
+                        <li class="uk-nav-divider"></li>
                         <li class="uk-parent">
-                            <ul class="uk-nav-sub">
-                                <li class="uk-nav-header uk-margin-top">Models</li>
-                                <li class="uk-nav-divider"></li>`
+                            <ul class="uk-nav-sub">`
                                 + modelsHtmlStr + `
                             </ul>
                         </ul>
