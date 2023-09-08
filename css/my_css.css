@@ -66,14 +66,41 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
 }
 
 .my-button {
+    position: relative;
+    top: 0px;
     background-color: rgb(77, 77, 77);
-    color: white
+    outline-color: rgb(117, 178, 152);
+    outline-width: 3px;
+    outline-style: solid;
+    color: white;
+    border-radius: 50px;
+    box-shadow: -15px -15px 25px rgb(30, 30, 30);
+    padding-top: 5px;
+    margin: 20px;
 }
 
 .my-button:hover {
+    position: relative;
+    top: 5px;
+    left: 5px;
     color: rgb(117, 178, 152);
+    box-shadow: -25px -25px 35px rgb(30, 30, 30);
+    offset: 5px 5px;
 }
 
+.my-button>p {
+    color: white;
+    text-align: center;
+}
+
+.my-button>p:hover {
+    color: rgb(117, 178, 152)
+}
+
+.my-heading {
+    color: rgb(77, 77, 77);
+    text-shadow: 0px 0px 5px rgb(117, 178, 152), -15px -15px 25px rgb(30, 30, 30);
+}
 
 ul.uk-subnav>.uk-active > a {
     background-color: rgb(117, 178, 152);

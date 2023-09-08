@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url(/schattenorigami/assets/triangulated_gradient.png) no-repeat center center fixed; 
+<html lang="en" style="background: url(/schattenorigami/assets/index_bg.svg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,39 +19,51 @@
     <!-- UIkit JS -->
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
 
     <title>Schattenorigami</title>
 </head>
 
 <body>
     <!-- main stuff -->
-    <div class="uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-light uk-background-contain uk-margin-bottom"
-        data-src="/schattenorigami/assets/home_image_150dpi-min.png" uk-img>
+    <div class="uk-width-2-3 uk-position-top-left">
+        <p class="uk-heading-2xlarge my-heading uk-padding-large uk-margin-top uk-text-bold">
+                original origami<br>design
+        </p>
+        <div class="uk-padding-large">
+            <a class="uk-button my-button" href="/schattenorigami/artworks.html">
+                <p class="uk-heading-small">View Artworks</p>
+            </a>
+            <a class="uk-button my-button" href="/schattenorigami/commissions.html">
+                <p class="uk-heading-small">Commissions</p>
+            </a>
+            <a class="uk-button my-button" href="https://www.instagram.com/schattenorigami/" target="_blank">
+                <p class="uk-heading-small"><span uk-icon="icon: instagram; ratio: 2"></span> Instagram</p>
+            </a>
+        </div>
     </div>
 
-    <div class="uk-container uk-container-xsmall uk-padding">
-        <div class="uk-card uk-card-default uk-child-width-1-2@s uk-margin-auto" uk-grid
-            uk-scrollspy="cls: uk-animation-slide-left">
-            <div class="uk-card-media-left uk-cover-container uk-visible@s">
-                <img src="/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg">
+    
+    <div>
+        <img src="/schattenorigami/assets/index_logo.svg" class="uk-width-1-2 uk-position-bottom-right uk-margin-bottom" uk-svg>
+    </div>
+
+    <!--
+    <div class="uk-container">
+        <div class="uk-grid-medium uk-child-width-1-2" uk-grid>
+            <div class="uk-height-viewport uk-background-contain uk-flex uk-width-3-5@s" uk-parallax="bgy: -600"
+                    style="background-image: url(/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg);">
             </div>
-            <div class="uk-card-body">
+            <div class="uk-padding uk-width-2-5@s uk-flex uk-flex-center uk-flex-column">
                 <p class="uk-heading-small">Artworks</p>
                 <br>
                 View my original designs and download the CPs and diagrams, if available.
                 <a class="uk-button my-button uk-width-1-1 uk-margin" href="/schattenorigami/artworks.html">
                     View Artworks
                 </a>
-
             </div>
-        </div>
 
-        <div class="uk-card uk-card-default uk-child-width-1-2@s uk-margin-auto" uk-grid
-            uk-scrollspy="cls: uk-animation-slide-right">
-            <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-visible@s">
-                <img src="/schattenorigami/assets/artwork_imgs/redback_spider_v1_0_img1.jpg">
-            </div>
-            <div class="uk-card-body">
+            <div class="uk-padding uk-width-2-5@s uk-flex uk-flex-center uk-flex-column">
                 <p class="uk-heading-small">Commissions</p>
                 <br>
                 Purchase existing models or order a unique, custom design.
@@ -59,14 +71,14 @@
                     Check details
                 </a>
             </div>
-        </div>
-
-        <div class="uk-card uk-card-default uk-child-width-1-2@s uk-margin-auto" uk-grid
-            uk-scrollspy="cls: uk-animation-slide-left">
-            <div class="uk-card-media-left uk-cover-container uk-visible@s">
-                <img src="/schattenorigami/assets/artwork_imgs/tiny_turt_v1_0_img1.jpeg">
+            <div class="uk-height-viewport uk-background-contain uk-flex uk-width-3-5 uk-visible@s" uk-parallax="bgy: -600"
+                    style="background-image: url(/schattenorigami/assets/artwork_imgs/redback_spider_v1_0_img1.jpg)";>
             </div>
-            <div class="uk-card-body">
+
+            <div class="uk-height-viewport uk-background-contain uk-flex uk-width-3-5 uk-visible@s" uk-parallax="bgy: -600"
+                    style="background-image: url(/schattenorigami/assets/artwork_imgs/tiny_turt_v1_0_img1.jpeg)";>
+            </div>
+            <div class="uk-padding uk-width-2-5@s uk-flex uk-flex-center uk-flex-column">
                 <p class="uk-heading-small">Social media</p>
                 <br>
                 Follow me on Instagram, where I upload all of my work (including models of other designers).
@@ -76,7 +88,11 @@
                     Instagram
                 </a>
             </div>
+
+
         </div>
+    </div>
+-->
 </body>
 
 </html>

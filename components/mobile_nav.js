@@ -53,15 +53,20 @@ class MobileNav extends HTMLElement {
 
 
         this.innerHTML = `
-            <nav class="uk-hidden@s uk-background-top-right uk-background-cover uk-margin-small-bottom uk-background-muted" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar uk-sticky>
-                <ul class="uk-navbar-nav uk-background-muted"">
-                    <li>
-                        <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html" uk-toggle="target: #offcanvas-nav-primary">
-                            <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <nav class="uk-hidden@s uk-background-top-right uk-background-cover uk-margin-small-bottom" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav uk-background-muted"">
+                        <li>
+                            <a class="uk-logo" href="/schattenorigami/index.html">
+                                <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary"></a>
+                        </li>
+                    </ul>
+                </div>
+
 
             <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
