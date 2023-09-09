@@ -53,7 +53,7 @@ class MobileNav extends HTMLElement {
 
 
         this.innerHTML = `
-            <nav class="uk-hidden@s uk-background-top-right uk-background-cover uk-margin-small-bottom" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar>
+            <nav class="uk-hidden@xl uk-background-top-right uk-background-cover uk-margin-small-bottom" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar>
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav uk-background-muted"">
                         <li>
@@ -72,10 +72,12 @@ class MobileNav extends HTMLElement {
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                     <button class="uk-offcanvas-close" uk-close></button>
 
-                    <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical"> 
+                    <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
+                        <li class="uk-nav-header">General</li>
+                        <li class="uk-nav-divider"></li>
                         <li>
-                            <a class="uk-logo" href="/schattenorigami/index.html">
-                                <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
+                            <a class="uk-text-bold" href="/schattenorigami/index.html">
+                                Home
                             </a>
                         </li>`
                         + mainNavStr + `

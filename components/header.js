@@ -18,8 +18,8 @@ class Header extends HTMLElement {
         }
 
         this.innerHTML = `
-            <nav class="uk-visible@s uk-background-top-right uk-background-cover uk-margin-small-bottom uk-background-muted" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar uk-sticky>
-                <ul id="navbar" class="uk-navbar-nav uk-background-muted"">
+            <nav class="uk-visible@xl uk-background-top-right uk-background-cover uk-margin-small-bottom uk-background-muted" style="background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png)" uk-navbar uk-sticky>
+                <ul class="uk-navbar-nav uk-background-muted"">
                     <li>
                         <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
                             <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>

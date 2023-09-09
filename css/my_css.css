@@ -86,15 +86,14 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     color: rgb(117, 178, 152);
     box-shadow: -25px -25px 35px rgb(30, 30, 30);
     offset: 5px 5px;
+    >p{
+        color: rgb(117, 178, 152);
+    };
 }
 
 .my-button>p {
     color: white;
     text-align: center;
-}
-
-.my-button>p:hover {
-    color: rgb(117, 178, 152)
 }
 
 .my-heading {
@@ -112,4 +111,5 @@ ul.uk-subnav>.uk-active > a {
     text-transform: uppercase;
     color: white;
     background-color: rgb(117, 178, 152);
+    border-radius: 5px;
 }
