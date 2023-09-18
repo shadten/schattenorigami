@@ -60,6 +60,7 @@ def create_artwork_page_from_model(model):
         comment("my JS")
         script(src="/schattenorigami/components/header.js", _type="text/javascript", defer=True)
         script(src="/schattenorigami/components/artworks_nav.js", _type="text/javascript", defer=True)
+        script(src="/schattenorigami/components/mobile_nav.js", _type="text/javascript", defer=True)
 
         
     with doc.body:
@@ -133,24 +134,25 @@ def create_artwork_page_from_model(model):
                     
                     # Slideshow
                     comment("Slideshow")
-                    with div(_class="uk-position-relative uk-visible-toggle uk-dark",
-                             tabindex="-1",
-                             uk_slideshow="ratio: 1:1; animation: pull"):
-                        emptyline()
-                        
-                        with ul(_class="uk-slideshow-items"):
-                            for i in range(model.nums_of_imgs[v]):
-                                with li():
-                                    img(src=model.img_paths[v][i], alt="", uk_cover="")
-                        emptyline()
-                        
-                        a(_class="uk-position-center-left uk-position-small uk-hidden-hover",
-                          href="#", uk_slidenav_previous="", uk_slideshow_item="previous")
-                        a(_class="uk-position-center-right uk-position-small uk-hidden-hover",
-                          href="#", uk_slidenav_next="", uk_slideshow_item="next")
-                        emptyline()
-                        
-                        ul(_class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin")
+                    with div():
+                        with div(_class="uk-position-relative uk-visible-toggle uk-dark",
+                                 tabindex="-1",
+                                 uk_slideshow="ratio: 1:1; animation: pull"):
+                            emptyline()
+                            
+                            with ul(_class="uk-slideshow-items"):
+                                for i in range(model.nums_of_imgs[v]):
+                                    with li():
+                                        img(src=model.img_paths[v][i], alt="", uk_cover="")
+                            emptyline()
+                            
+                            a(_class="my-slidenav-arrows uk-position-center-left uk-position-small uk-hidden-hover",
+                              href="#", uk_slidenav_previous="", uk_slideshow_item="previous")
+                            a(_class="my-slidenav-arrows uk-position-center-right uk-position-small uk-hidden-hover",
+                              href="#", uk_slidenav_next="", uk_slideshow_item="next")
+                            emptyline()
+                            
+                            ul(_class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin")
                     emptyline()
                     
                     # Model info
@@ -167,7 +169,7 @@ def create_artwork_page_from_model(model):
                                         text(value)
                                         
                             # Grid if applicable
-                            if model.grids is not None:
+                            if model.grids[v] is not None:
                                 with tr():
                                     with td(_class="uk-text-bold"):
                                         text("Grid")

@@ -25,7 +25,7 @@ function getModelCardHtml(model) {
         iconsStr += `<img src="assets/icons/diagrams_icon.svg" width="35" uk-svg></img>`
     }
     if (cp) {
-        filterStr += `tag-CP `;
+        filterStr += `tag-CP tag-test`;
         iconsStr += `<img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>`
     }
 
@@ -35,7 +35,7 @@ function getModelCardHtml(model) {
             <div class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
                 <a href="` + artworkPage + `" class="uk-link-muted">
                     <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
-                        <img src="`+ imgPath + `" alt="">
+                        <img class="my-img-square" src="`+ imgPath + `" alt="">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">` + name + `</h3>

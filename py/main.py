@@ -8,27 +8,29 @@ from OrigamiModel import OrigamiModel
 from Catalogue import load_catalogue_from_json
 
 # ----- MODEL PARAMETERS HERE -----
-name = "Pholcus phalangioides" # str
-tags = ["box-pleated", "spider"] # str
-version_titles = ["1.0"] # str
+name = "Cyclommatus metallifer" # str
+tags = ["box-pleated", "insect"] # str
+version_titles = ["1.2", "1.1", "1.0"] # str
 captions = [
     [
-         "Honestly, this model was quite a handful.",
-         "Initially I wanted to design a simple little model of a not-too-detailed little spider.",
-         "But in order to make the legs very long relative to the body, I had to make the body very small. That resulted in a lot of excess paper which, because I didn't want to waste it, led me to give the spider some eggs to take care of. In the end, the model turned out way more tedious to fold than I anticipated and the collapse with single tissue was a mess.",
-         "Meanwhile I almost had a mental breakdown* spending an unreasonably huge amount of time fixing errors in the CP where there weren't any, because ORIPA went insane.",
-         "Fortunately, it all turned out ok in the end, so I'm counting that as a win."
+         "I changed the scutellum (the little triangle on the back) of the beetle a bit so it's narrower compared to the previous version and made some other small revisions."
     ],
-] # list of str 
-nums_of_imgs = [2] # int
-dates= ["August 2020"] # str
-papers = ["34 cm square of single tissue"] # str
-times = ["~4 hours"] # str
-grids = None # None or str
-trivias = [None] # None or str
-notes = ["Diagonal reference line (light blue) at 22.5° through the center, gray corners folded inwards"] # str
-cps = [True] # bool
-diagrams = [False] # bool
+    [
+         "A refold of my original design. I made some slight changes to the cp and tried to give it an overall better shaping."
+    ],
+    [
+        "There are a lot of origami models of this particular beetle, so I thought I could give it a try as well and I'm pretty happy with how it turned out!" 
+    ]
+] # list of str   
+nums_of_imgs = [5, 4, 3] # int
+dates= ["September 2019", "April 2019", "January 2019"] # str
+papers = ["33 cm square of double tissue", "30 cm square of double tissue", "30 cm square of double tissue"] # str
+times = ["~6.5 hours", "~8 hours", "~5 hours"] # str
+grids = ["48x48 with"]*3 # None or str
+trivias = ["This model (which I submitted along with my Redback Spider) won Paper for Water's BugBattle contest in the original design category.", None, None] # None or str
+notes = ["Additional details shown only on the left half of the CP"]*3 # str
+cps = [True, True, True] # bool
+diagrams = [False, False, False] # bool
 
 cp_file_extension = "png"
 imgs_file_extension = "jpg"

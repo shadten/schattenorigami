@@ -32,8 +32,8 @@
                 "2020-6"
             ],
             "papers": [
-                "47cm square of double tissue",
-                "46cm square of double tissue"
+                "47 cm square of double tissue",
+                "46 cm square of double tissue"
             ],
             "times": [
                 "~9 hours",
@@ -105,7 +105,7 @@
                 "2021-10"
             ],
             "papers": [
-                "30cm triple tissue"
+                "30 cm triple tissue"
             ],
             "times": [
                 "~1.5 hours"
@@ -134,6 +134,437 @@
             "img_paths": [
                 [
                     "/schattenorigami/assets/artwork_imgs/bat_v1_0_img1.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Cetratus rubropunctatus",
+            "tags": [
+                "box-pleated",
+                "spider"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I saw a picture of a Cetratus species here on Instagram and immediately thought that it would be a great subject to try and design an origami model of it. So here is what I came up with. I learned a lot while designing this one and it turned out quite challenging. There are some things I'd like to change in future revisions but I like how it turned out."
+                ]
+            ],
+            "nums_of_imgs": [
+                4
+            ],
+            "dates": [
+                "January 2020"
+            ],
+            "dates_num": [
+                "2020-1"
+            ],
+            "papers": [
+                "41 cm square of double tissue"
+            ],
+            "times": [
+                "~8 hours"
+            ],
+            "grids": [
+                "64x64"
+            ],
+            "trivias": [
+                null
+            ],
+            "notes": [
+                "Additional details for the eyes and body shown only on the right half of the CP."
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "cetratus_rubropunctatus",
+            "artwork_page_path": "/schattenorigami/artwork_pages/cetratus_rubropunctatus.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/cetratus_rubropunctatus_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/cetratus_rubropunctatus_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cetratus_rubropunctatus_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cetratus_rubropunctatus_v1_0_img3.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cetratus_rubropunctatus_v1_0_img4.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Cyclommatus metallifer",
+            "tags": [
+                "box-pleated",
+                "insect"
+            ],
+            "version_titles": [
+                "1.2",
+                "1.1",
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I changed the scutellum (the little triangle on the back) of the beetle a bit so it's narrower compared to the previous version and made some other small revisions."
+                ],
+                [
+                    "A refold of my original design. I made some slight changes to the cp and tried to give it an overall better shaping."
+                ],
+                [
+                    "There are a lot of origami models of this particular beetle, so I thought I could give it a try as well and I'm pretty happy with how it turned out!"
+                ]
+            ],
+            "nums_of_imgs": [
+                6,
+                4,
+                3
+            ],
+            "dates": [
+                "September 2019",
+                "April 2019",
+                "January 2019"
+            ],
+            "dates_num": [
+                "2019-9",
+                "2019-4",
+                "2019-1"
+            ],
+            "papers": [
+                "33 cm square of double tissue",
+                "30 cm square of double tissue",
+                "30 cm square of double tissue"
+            ],
+            "times": [
+                "~6.5 hours",
+                "~8 hours",
+                "~5 hours"
+            ],
+            "grids": [
+                "48x48 with",
+                "48x48 with",
+                "48x48 with"
+            ],
+            "trivias": [
+                "This model (which I submitted along with my Redback Spider) won Paper for Water's BugBattle contest in the original design category.",
+                null,
+                null
+            ],
+            "notes": [
+                "Additional details shown only on the left half of the CP",
+                "Additional details shown only on the left half of the CP",
+                "Additional details shown only on the left half of the CP"
+            ],
+            "cps": [
+                true,
+                true,
+                true
+            ],
+            "diagrams": [
+                false,
+                false,
+                false
+            ],
+            "num_of_versions": 3,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "cyclommatus_metallifer",
+            "artwork_page_path": "/schattenorigami/artwork_pages/cyclommatus_metallifer.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/cyclommatus_metallifer_v1_2_cp.png",
+                "/schattenorigami/assets/CPs/cyclommatus_metallifer_v1_1_cp.png",
+                "/schattenorigami/assets/CPs/cyclommatus_metallifer_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img3.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img4.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img5.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_2_img6.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_1_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_1_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_1_img3.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_1_img4.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/cyclommatus_metallifer_v1_0_img3.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Latrodectus alata",
+            "tags": [
+                "box-pleated",
+                "color change",
+                "spider"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I have once again emerged from the depths of exams, assignments and lack of motivation to present to you this little model I designed some months ago and then forgot to post. I am currently pretending that posting this on Halloween was my plan all along.",
+                    "Anyway, the model is a hybrid of two other of my spider designs, the Redback Spider (Latrodectus hasselti) and the winged Tarantula (Avicularia alata). To be honest, I am not completely satisfied with how the shaping turned out - especially the legs - but on the other hand it's good enough to not make me want to refold it any time soon."
+                ]
+            ],
+            "nums_of_imgs": [
+                4
+            ],
+            "dates": [
+                "March 2022"
+            ],
+            "dates_num": [
+                "2022-3"
+            ],
+            "papers": [
+                "47 cm square of double tissue"
+            ],
+            "times": [
+                "~12 hours"
+            ],
+            "grids": [
+                "52x52"
+            ],
+            "trivias": [
+                null
+            ],
+            "notes": [
+                "Details to create the spikes on the legs are only shown on the right half of the CP."
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "latrodectus_alata",
+            "artwork_page_path": "/schattenorigami/artwork_pages/latrodectus_alata.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/latrodectus_alata_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/latrodectus_alata_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/latrodectus_alata_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/latrodectus_alata_v1_0_img3.jpg",
+                    "/schattenorigami/assets/artwork_imgs/latrodectus_alata_v1_0_img4.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Loch Ness Monster",
+            "tags": [
+                "box-pleated",
+                "legendary creature"
+            ],
+            "version_titles": [
+                "2.0",
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "This is a complete redisign of my original model, the structure is completely different compared to the previous version (which had diagonal symmetry and 22.5&deg structures, while the new one has book symmetry and is mainly pure boxpleating). The body is based on a 24x24 grid, the neck and head require a 96x96 grid.",
+                    "Shaping took longer than expected and I put a coin in the back of the body to balance out the heavy head/neck part",
+                    "It turned out pretty much like i imagined it, though I think theres still room for improvements."
+                ],
+                [
+                    "This is the first of the few models I designed so far, although it was more trial and error than actual designing (and probably more error than trial). It's far from perfect so every once in a while I try to revise it a bit."
+                ]
+            ],
+            "nums_of_imgs": [
+                3,
+                1
+            ],
+            "dates": [
+                "October 2019",
+                "June 2018 (original design some years earlier)"
+            ],
+            "dates_num": [
+                "2019-10",
+                "2018-6"
+            ],
+            "papers": [
+                "49 cm square of double tissue",
+                "50 cm square of double tissue"
+            ],
+            "times": [
+                "~6.5 hours",
+                "~1.5 hours"
+            ],
+            "grids": [
+                "24x24 with partial 96",
+                null
+            ],
+            "trivias": [
+                null,
+                null
+            ],
+            "notes": [
+                null,
+                null
+            ],
+            "cps": [
+                true,
+                false
+            ],
+            "diagrams": [
+                false,
+                false
+            ],
+            "num_of_versions": 2,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "loch_ness_monster",
+            "artwork_page_path": "/schattenorigami/artwork_pages/loch_ness_monster.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/loch_ness_monster_v2_0_cp.png",
+                "/schattenorigami/assets/CPs/loch_ness_monster_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/loch_ness_monster_v2_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/loch_ness_monster_v2_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/loch_ness_monster_v2_0_img3.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/loch_ness_monster_v1_0_img1.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "Not quite an angel",
+            "tags": [
+                "box-pleated",
+                "color change",
+                "humanoid"
+            ],
+            "version_titles": [
+                "4.0",
+                "3.0",
+                "2.0",
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "Following advice from @bodo_ori , I was finally able to make this design asymmetric.",
+                    "The model now has color changes, bigger bones on the right wing and a sword although the grid only got slightly bigger, which shows how much more efficient it is now (or rather how inefficient the previous version was).",
+                    "I like how it turned out, though there are some small things I want to change which I only noticed when I was almost done folding and I didn't want to start again.",
+                    "The collapse was a bit of a pain because the paper was too soft and not really good to work with but I wanted to have this cool pattern."
+                ],
+                [
+                    "Although I haven't changed that much in the cp compared to the previous version, it looks very different. The shaping is way better now and it I think it looks much more natural and less two dimensional."
+                ],
+                [
+                    "I finally had some time for origami again. Here's the 2nd version of this model, I changed the structure completely and tried to shape the left side devil-ish (horns, different wing, 3 claws) while the right side stayed looking like an angel."
+                ],
+                [
+                    "My newest design. Probably the first one where i could model an idea without having to change it too much. It's based on an 24x24 grid with a partial 96x96 grid for the wings and parts of the dress."
+                ]
+            ],
+            "nums_of_imgs": [
+                1,
+                4,
+                3,
+                3
+            ],
+            "dates": [
+                "July 2020",
+                "May 2019",
+                "January 2019",
+                "August 2018"
+            ],
+            "dates_num": [
+                "2020-7",
+                "2019-5",
+                "2019-1",
+                "2018-8"
+            ],
+            "papers": [
+                "48 cm square of double tissue",
+                "35 cm square of Wenzhou rice paper",
+                "30 cm square of double tissue",
+                "50 cm square of double tissue"
+            ],
+            "times": [
+                "~9 hours",
+                "~5.5 hours",
+                "~4.5 hours",
+                "~6 hours"
+            ],
+            "grids": [
+                "64x64",
+                "60x60",
+                "48x48",
+                "24x24 with partial 96"
+            ],
+            "trivias": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "notes": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "cps": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "diagrams": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "num_of_versions": 4,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "not_quite_an_angel",
+            "artwork_page_path": "/schattenorigami/artwork_pages/not_quite_an_angel.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/not_quite_an_angel_v4_0_cp.png",
+                "/schattenorigami/assets/CPs/not_quite_an_angel_v3_0_cp.png",
+                "/schattenorigami/assets/CPs/not_quite_an_angel_v2_0_cp.png",
+                "/schattenorigami/assets/CPs/not_quite_an_angel_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v4_0_img1.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v3_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v3_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v3_0_img3.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v3_0_img4.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v2_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v2_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v2_0_img3.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/not_quite_an_angel_v1_0_img3.jpg"
                 ]
             ]
         },
@@ -224,7 +655,7 @@
                 "2019-4"
             ],
             "papers": [
-                "35cm square of double tissue"
+                "35 cm square of double tissue"
             ],
             "times": [
                 "~3.5 hours"
@@ -283,7 +714,7 @@
                 "2020-9"
             ],
             "papers": [
-                "\t20cm square of double tissue"
+                "20 cm square of double tissue"
             ],
             "times": [
                 "~2 hours"
@@ -344,7 +775,7 @@
                 "2020-9"
             ],
             "papers": [
-                "20cm square of double tissue"
+                "20 cm square of double tissue"
             ],
             "times": [
                 "~2 hours"
@@ -403,7 +834,7 @@
                 "2021-9"
             ],
             "papers": [
-                "15cm square of tracing paper + tissue paper"
+                "15 cm square of tracing paper + tissue paper"
             ],
             "times": [
                 "~15 minutes"
@@ -440,6 +871,11 @@
     "model_names": [
         "Avicularia alata",
         "Bat",
+        "Cetratus rubropunctatus",
+        "Cyclommatus metallifer",
+        "Latrodectus alata",
+        "Loch Ness Monster",
+        "Not quite an angel",
         "Pholcus phalangioides",
         "Redback Spider",
         "Simple Catgirl",

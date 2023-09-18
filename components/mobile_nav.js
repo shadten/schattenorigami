@@ -81,7 +81,7 @@ class MobileNav extends HTMLElement {
                             </a>
                         </li>`
                         + mainNavStr + `
-                        <li class="uk-nav-header uk-margin-top uk-margin-left">Models</li>
+                        <li class="uk-nav-header uk-margin-top">Models</li>
                         <li class="uk-nav-divider"></li>
                         <li class="uk-parent">
                             <ul class="uk-nav-sub">`

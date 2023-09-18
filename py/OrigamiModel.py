@@ -10,7 +10,7 @@ from create_artwork_page import create_artwork_page_from_model
 
 class OrigamiModel():
     __tag_list__ = ["22.5&deg", "box-pleated", "circle-packed", "color change",
-                    "humanoid", "animal", "spider", "insect", "object"]
+                    "humanoid", "animal", "legendary creature", "spider", "insect", "object"]
     
     __artwork_pages_dir__ = "/schattenorigami/artwork_pages/"
     __CPs_dir__ = "/schattenorigami/assets/CPs/"
@@ -18,8 +18,7 @@ class OrigamiModel():
 
     def __init__(self, name, tags,
                  version_titles, captions, nums_of_imgs, dates, papers, times,
-                 grids,
-                 trivias, notes,  
+                 grids, trivias, notes,  
                  cps, diagrams,
                  cp_file_extension="png", imgs_file_extension = "jpeg"):
         """
@@ -42,12 +41,12 @@ class OrigamiModel():
             List of the paper used for each version
         times : list of str
             List of the times for each version
-        grids : None or list of str
+        grids : list of None or str
             List of grids for each version.
-            If None, then no grid for all versions.
+            If None, then no grid for the corresponding versions.
         trivias : list of None or str
             List of trivias for each model.
-            If NONE, then no trivia for the corresponding versions.
+            If None, then no trivia for the corresponding versions.
         notes : list of None or str
             List of notes for each version.
             If NONE, then no note for the corresponding versions.
@@ -190,8 +189,7 @@ def init_model_from_dict(model_dict):
     
     return OrigamiModel(name, tags,
                         version_titles, captions, nums_of_imgs, dates, papers, times,
-                        grids,
-                        trivias, notes,
+                        grids, trivias, notes,
                         cps, diagrams,
                         cp_file_extension, imgs_file_extension)     
 
@@ -200,7 +198,7 @@ def init_model_from_dict(model_dict):
 def get_numeric_date(date):
     months = ["January", "February", "March", "April", "May", "June", "July", 
               "August", "September", "October", "November", "December"]
-    month, year = date.split(' ')
+    month, year = date.split(' ')[:2]
     if not month in months:
         raise ValueError("date must be of the form 'Month yyyy'")
     

@@ -35,30 +35,47 @@
         <hr>
         <p>Here you can find my original origami designs. Click on one to see additional information, previous
             versions and download the CP or diagrams, if available.</p>
-
+        
         <div uk-filter="target: .js-filter">
+                <div class="uk-background-muted uk-padding-small">
+                    <div class="uk-width-1-1 uk-flex uk-flex-center uk-text-lead uk-inline">
+                        Filter & Sort
+                        <a class="uk-link-muted uk-position-center-right" uk-icon="menu" uk-toggle="target: #filter"></a>
+                    </div>
+                    
+                    <div id="filter" class="uk-grid-small uk-width-1-1 uk-child-width-1-2@m" uk-grid hidden>
+                        <hr class="uk-width-1-1 uk-margin-left uk-margin-top">
+                        <div class="uk-flex uk-flex-left@m uk-flex-center">
+                            <ul class="uk-subnav uk-subnav-pill">
+                                <li uk-filter-control="sort: data-date; order: desc" class="uk-active" ><a>newest</a></li>
+                                <li uk-filter-control="sort: data-date"><a>oldest</a></li>
+                                <li uk-filter-control="sort: data-name"><a>A-Z</a></li>
+                                <li uk-filter-control="sort: data-name; order: desc"><a>Z-A</a></li>
+                            </ul>
+                        </div>
 
-            <div class="uk-grid-small uk-child-width-1-2@m uk-background-muted uk-margin-auto" uk-grid>
-                <div class="uk-flex uk-flex-left">
-                    <ul class="uk-subnav uk-subnav-divider uk-subnav-pill">
-                        <li uk-filter-control="sort: data-date; order: desc"  class="uk-active" ><a>newest</a></li>
-                        <li uk-filter-control="sort: data-date"><a>oldest</a></li>
-                        <li uk-filter-control="sort: data-name"><a>A-Z</a></li>
-                        <li uk-filter-control="sort: data-name; order: desc"><a>Z-A</a></li>
-                    </ul>
+                        <div class="uk-flex uk-flex-right@m uk-flex-center">
+                            <ul class="uk-subnav uk-subnav-pill">
+                                <li class="uk-active" uk-filter-control="group: CP_diags"><a>All</a></li>
+                                <li uk-filter-control="filter: .tag-CP; group: CP_diags"><a uk-tooltip="CP available"><img src="assets/icons/cp_icon.svg" width="35" uk-svg></a></li>
+                                <li uk-filter-control="filter: .tag-diagrams; group: CP_diags"><a uk-tooltip="Diagrams available"><img src="assets/icons/diagrams_icon.svg" width="35" uk-svg></a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- filter by tags
+                        <div class="uk-flex uk-flex-center">
+                            <ul class="uk-list">
+                                <li uk-filter-control="filter: .tag-diagrams; group: tags">
+                                    <a id="tag-button1" uk-toggle="target: #tag-button1; cls: my-label">TEST</a>
+                                </li>
+                            </ul>
+                        </div>
+                        -->
+                    </div>
                 </div>
 
-                <div class="uk-flex uk-flex-right@m">
-                    <ul class="uk-subnav uk-subnav-divider uk-subnav-pill">
-                        <li class="uk-active" uk-filter-control><a>All</a></li>
-                        <li uk-filter-control=".tag-CP"><a uk-tooltip="CP available"><img src="assets/icons/cp_icon.svg" width="35" uk-svg></a></li>
-                        <li uk-filter-control=".tag-diagrams"><a uk-tooltip="Diagrams available"><img src="assets/icons/diagrams_icon.svg" width="35" uk-svg></a></li>
-                    </ul>
-                </div>
-            </div>
-
+            <div class="uk-margin"></div>
             <my-gallery></my-gallery>
-
         </div>
     </div>
 

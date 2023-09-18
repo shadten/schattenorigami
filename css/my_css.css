@@ -25,7 +25,7 @@ td {
     left: 0px;
     top: 80px;
     bottom: 0px;
-    width: 170px;
+    width: 200px;
 
     overflow-y: scroll;
     background-color: white;
@@ -112,4 +112,20 @@ ul.uk-subnav>.uk-active > a {
     color: white;
     background-color: rgb(117, 178, 152);
     border-radius: 5px;
+}
+
+.my-slidenav-arrows {
+    color: white;
+    background-color: rgba(77, 77, 77, 0.3);
+    border-radius: 10px;
+}
+
+.my-slidenav-arrows:hover {
+    color: rgb(117, 178, 152);
+}
+
+.my-img-square {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
