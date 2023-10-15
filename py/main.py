@@ -8,29 +8,31 @@ from OrigamiModel import OrigamiModel
 from Catalogue import load_catalogue_from_json
 
 # ----- MODEL PARAMETERS HERE -----
-name = "Cyclommatus metallifer" # str
-tags = ["box-pleated", "insect"] # str
-version_titles = ["1.2", "1.1", "1.0"] # str
+name = "My best friend" # str
+tags = ["box-pleated", "humanoid", "color change"] # str
+version_titles = ["2.0", "1.0"] # str
 captions = [
     [
-         "I changed the scutellum (the little triangle on the back) of the beetle a bit so it's narrower compared to the previous version and made some other small revisions."
+        "I finally took the time to revise this model. There's still a lot of room for improvements so I'll go back to it every once a while.",
+        "This model was originally named 'My best friend' v.2', as it is a simple revision of the previos version. After someone made the suggestion on the original instagram post-LINK-, I changed the name to 'Sadako' as a tribute to Sadako Sasaki. The Wikipedia-LINK- article reads:",
+        "Sadako Sasaki [...] was a Japanese girl who was 2 years old when an American atomic bomb was dropped on Hiroshima on August 6, 1945, near her home next to the Misasa Bridge but survived. Sasaki became one of the most widely known hibakusha---a Japanese term meaning \"bomb-affected person\". She is remembered through the story of the one thousand origami cranes she folded before her death, and is to this day a symbol of the innocent victims of nuclear warfare."
     ],
     [
-         "A refold of my original design. I made some slight changes to the cp and tried to give it an overall better shaping."
-    ],
-    [
-        "There are a lot of origami models of this particular beetle, so I thought I could give it a try as well and I'm pretty happy with how it turned out!" 
+        "I had the idea of designing a person holding a traditional crane some time ago, but wasn't able to do it; I'm glad to say I was able to now!",
+        "I adopted the head (with slight variations) from Chen Xiao's 'walking in the rain', since I really liked it. I'll probabaly use it again in future designs.",
+        "The third picture shows a refold of the design to see what it looks like with a different shaping."
     ]
+
 ] # list of str   
-nums_of_imgs = [5, 4, 3] # int
-dates= ["September 2019", "April 2019", "January 2019"] # str
-papers = ["33 cm square of double tissue", "30 cm square of double tissue", "30 cm square of double tissue"] # str
-times = ["~6.5 hours", "~8 hours", "~5 hours"] # str
-grids = ["48x48 with"]*3 # None or str
-trivias = ["This model (which I submitted along with my Redback Spider) won Paper for Water's BugBattle contest in the original design category.", None, None] # None or str
-notes = ["Additional details shown only on the left half of the CP"]*3 # str
-cps = [True, True, True] # bool
-diagrams = [False, False, False] # bool
+nums_of_imgs = [2, 3] # int
+dates= ["August 2019", "October 2018"] # str
+papers = ["35 cm square of double tissue", "30-35 cm square of double tissue"] # str
+times = ["~8 hours", "~4 hours"] # str
+grids = ["50x50", "42x42"] # None or str
+trivias = ["Originally titled 'My best friend v.2'", None] # None or str
+notes = [None, None] # str
+cps = [True, True] # bool
+diagrams = [False, False] # bool
 
 cp_file_extension = "png"
 imgs_file_extension = "jpg"

@@ -246,9 +246,9 @@
                 "~5 hours"
             ],
             "grids": [
-                "48x48 with",
-                "48x48 with",
-                "48x48 with"
+                "48x48",
+                "48x48",
+                "48x48"
             ],
             "trivias": [
                 "This model (which I submitted along with my Redback Spider) won Paper for Water's BugBattle contest in the original design category.",
@@ -442,6 +442,90 @@
                 ],
                 [
                     "/schattenorigami/assets/artwork_imgs/loch_ness_monster_v1_0_img1.jpg"
+                ]
+            ]
+        },
+        {
+            "name": "My best friend",
+            "tags": [
+                "box-pleated",
+                "color change",
+                "humanoid"
+            ],
+            "version_titles": [
+                "2.0",
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "I finally took the time to revise this model. There's still a lot of room for improvements so I'll go back to it every once a while.",
+                    "This model was originally named 'My best friend' v.2', as it is a simple revision of the previos version. After someone made the suggestion on the original instagram post-LINK-, I changed the name to 'Sadako' as a tribute to Sadako Sasaki. The Wikipedia-LINK- article reads:",
+                    "Sadako Sasaki [...] was a Japanese girl who was 2 years old when an American atomic bomb was dropped on Hiroshima on August 6, 1945, near her home next to the Misasa Bridge but survived. Sasaki became one of the most widely known hibakusha---a Japanese term meaning \"bomb-affected person\". She is remembered through the story of the one thousand origami cranes she folded before her death, and is to this day a symbol of the innocent victims of nuclear warfare."
+                ],
+                [
+                    "I had the idea of designing a person holding a traditional crane some time ago, but wasn't able to do it; I'm glad to say I was able to now!",
+                    "I adopted the head (with slight variations) from Chen Xiao's 'walking in the rain', since I really liked it. I'll probabaly use it again in future designs.",
+                    "The third picture shows a refold of the design to see what it looks like with a different shaping."
+                ]
+            ],
+            "nums_of_imgs": [
+                2,
+                3
+            ],
+            "dates": [
+                "August 2019",
+                "October 2018"
+            ],
+            "dates_num": [
+                "2019-8",
+                "2018-10"
+            ],
+            "papers": [
+                "35 cm square of double tissue",
+                "30-35 cm square of double tissue"
+            ],
+            "times": [
+                "~8 hours",
+                "~4 hours"
+            ],
+            "grids": [
+                "50x50",
+                "42x42"
+            ],
+            "trivias": [
+                "Originally titled 'My best friend v.2'",
+                null
+            ],
+            "notes": [
+                null,
+                null
+            ],
+            "cps": [
+                true,
+                true
+            ],
+            "diagrams": [
+                false,
+                false
+            ],
+            "num_of_versions": 2,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "my_best_friend",
+            "artwork_page_path": "/schattenorigami/artwork_pages/my_best_friend.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/my_best_friend_v2_0_cp.png",
+                "/schattenorigami/assets/CPs/my_best_friend_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/my_best_friend_v2_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/my_best_friend_v2_0_img2.jpg"
+                ],
+                [
+                    "/schattenorigami/assets/artwork_imgs/my_best_friend_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/my_best_friend_v1_0_img2.jpg",
+                    "/schattenorigami/assets/artwork_imgs/my_best_friend_v1_0_img3.jpg"
                 ]
             ]
         },
@@ -875,6 +959,7 @@
         "Cyclommatus metallifer",
         "Latrodectus alata",
         "Loch Ness Monster",
+        "My best friend",
         "Not quite an angel",
         "Pholcus phalangioides",
         "Redback Spider",
