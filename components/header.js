@@ -22,7 +22,7 @@ class Header extends HTMLElement {
                 <ul class="uk-navbar-nav uk-background-muted"">
                     <li>
                         <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
-                            <img src="/schattenorigami/assets/logo_title.svg" width="120" uk-svg></img>
+                            <img src="/schattenorigami/assets/logo_title.svg" width="150" uk-svg></img>
                         </a>
                     </li>
             ` + html_str + `</ul></nav>`;

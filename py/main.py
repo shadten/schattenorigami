@@ -8,31 +8,26 @@ from OrigamiModel import OrigamiModel
 from Catalogue import load_catalogue_from_json
 
 # ----- MODEL PARAMETERS HERE -----
-name = "My best friend" # str
-tags = ["box-pleated", "humanoid", "color change"] # str
-version_titles = ["2.0", "1.0"] # str
+name = "Light up your path" # str
+tags = ["box-pleated", "humanoid"] # str
+version_titles = ["1.0"] # str
 captions = [
     [
-        "I finally took the time to revise this model. There's still a lot of room for improvements so I'll go back to it every once a while.",
-        "This model was originally named 'My best friend' v.2', as it is a simple revision of the previos version. After someone made the suggestion on the original instagram post-LINK-, I changed the name to 'Sadako' as a tribute to Sadako Sasaki. The Wikipedia-LINK- article reads:",
-        "Sadako Sasaki [...] was a Japanese girl who was 2 years old when an American atomic bomb was dropped on Hiroshima on August 6, 1945, near her home next to the Misasa Bridge but survived. Sasaki became one of the most widely known hibakusha---a Japanese term meaning \"bomb-affected person\". She is remembered through the story of the one thousand origami cranes she folded before her death, and is to this day a symbol of the innocent victims of nuclear warfare."
+         "One of the reasons why I love origami, and particularly designing my own models, is because you can make any vision and idea become real.",
+         "The structure is a variation of my model 'my best friend'. I made use of the paper on the lower right corner (creating a ribbon), so it's more efficient.",
+         "Aimed a flashlight at the lantern to make it look like it's glowing (which turned out being trickier than I thought it would be)."
+         
     ],
-    [
-        "I had the idea of designing a person holding a traditional crane some time ago, but wasn't able to do it; I'm glad to say I was able to now!",
-        "I adopted the head (with slight variations) from Chen Xiao's 'walking in the rain', since I really liked it. I'll probabaly use it again in future designs.",
-        "The third picture shows a refold of the design to see what it looks like with a different shaping."
-    ]
-
 ] # list of str   
-nums_of_imgs = [2, 3] # int
-dates= ["August 2019", "October 2018"] # str
-papers = ["35 cm square of double tissue", "30-35 cm square of double tissue"] # str
-times = ["~8 hours", "~4 hours"] # str
-grids = ["50x50", "42x42"] # None or str
-trivias = ["Originally titled 'My best friend v.2'", None] # None or str
-notes = [None, None] # str
-cps = [True, True] # bool
-diagrams = [False, False] # bool
+nums_of_imgs = [2] # int
+dates= ["June 2019"] # str
+papers = ["30 cm square of wenzhou rice paper"] # str
+times = ["~6 hours"] # str
+grids = ["42x42"] # None or str
+trivias = [None] # None or str
+notes = [None] # str
+cps = [True] # bool
+diagrams = [False] # bool
 
 cp_file_extension = "png"
 imgs_file_extension = "jpg"

@@ -366,6 +366,67 @@
             ]
         },
         {
+            "name": "Light up your path",
+            "tags": [
+                "box-pleated",
+                "humanoid"
+            ],
+            "version_titles": [
+                "1.0"
+            ],
+            "captions": [
+                [
+                    "One of the reasons why I love origami, and particularly designing my own models, is because you can make any vision and idea become real.",
+                    "The structure is a variation of my model 'my best friend'. I made use of the paper on the lower right corner (creating a ribbon), so it's more efficient.",
+                    "Aimed a flashlight at the lantern to make it look like it's glowing (which turned out being trickier than I thought it would be)."
+                ]
+            ],
+            "nums_of_imgs": [
+                2
+            ],
+            "dates": [
+                "June 2019"
+            ],
+            "dates_num": [
+                "2019-6"
+            ],
+            "papers": [
+                "30 cm square of wenzhou rice paper"
+            ],
+            "times": [
+                "~6 hours"
+            ],
+            "grids": [
+                "42x42"
+            ],
+            "trivias": [
+                null
+            ],
+            "notes": [
+                null
+            ],
+            "cps": [
+                true
+            ],
+            "diagrams": [
+                false
+            ],
+            "num_of_versions": 1,
+            "cp_file_extension": "png",
+            "imgs_file_extension": "jpg",
+            "name_snake": "light_up_your_path",
+            "artwork_page_path": "/schattenorigami/artwork_pages/light_up_your_path.html",
+            "cp_paths": [
+                "/schattenorigami/assets/CPs/light_up_your_path_v1_0_cp.png"
+            ],
+            "img_paths": [
+                [
+                    "/schattenorigami/assets/artwork_imgs/light_up_your_path_v1_0_img1.jpg",
+                    "/schattenorigami/assets/artwork_imgs/light_up_your_path_v1_0_img2.jpg"
+                ]
+            ]
+        },
+        {
             "name": "Loch Ness Monster",
             "tags": [
                 "box-pleated",
@@ -958,6 +1019,7 @@
         "Cetratus rubropunctatus",
         "Cyclommatus metallifer",
         "Latrodectus alata",
+        "Light up your path",
         "Loch Ness Monster",
         "My best friend",
         "Not quite an angel",
