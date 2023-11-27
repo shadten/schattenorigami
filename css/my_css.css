@@ -118,10 +118,13 @@ ul.uk-subnav>.uk-active > a {
     color: white;
     background-color: rgba(77, 77, 77, 0.3);
     border-radius: 10px;
+    display: flex;
+    height: 25%;
 }
 
 .my-slidenav-arrows:hover {
     color: rgb(117, 178, 152);
+    stroke-width: 10;
 }
 
 .my-img-square {
