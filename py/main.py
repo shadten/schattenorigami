@@ -8,7 +8,7 @@ from OrigamiModel import OrigamiModel
 from Catalogue import load_catalogue_from_json
 
 # ----- MODEL PARAMETERS HERE -----
-name = "Light up your path" # str
+name = "AAA" # str
 tags = ["box-pleated", "humanoid"] # str
 version_titles = ["1.0"] # str
 captions = [
@@ -71,6 +71,7 @@ model = OrigamiModel(name, tags,
                      cps, diagrams,
                      cp_file_extension=cp_file_extension, imgs_file_extension=imgs_file_extension)
 artworks = load_catalogue_from_json("../artworks.json")
+
 
 if do_new_model:
     artworks.add_model(model)

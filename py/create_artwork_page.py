@@ -37,6 +37,7 @@ def create_artwork_page_from_model(model):
         attr(lang="en")
 
     with doc.head:
+        link(rel="icon", type="image/x-icon", href="/schattenorigami/assets/icons/favicon.ico")
         emptyline()
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
