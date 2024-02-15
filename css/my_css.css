@@ -55,6 +55,8 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
 }
 
 .my-index-social-button {
+    padding: 5px;
+    border-radius: 15px;
     color: white;
     background-color: rgb(117, 178, 152)
 }
@@ -89,9 +91,17 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     >p{
         color: rgb(117, 178, 152);
     };
+    >h2{
+        color: rgb(117, 178, 152);
+    };
 }
 
 .my-button>p {
+    color: white;
+    text-align: center;
+}
+
+.my-button>h2 {
     color: white;
     text-align: center;
 }

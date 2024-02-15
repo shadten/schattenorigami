@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url(/schattenorigami/assets/index_bg.svg) no-repeat center top fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;">
+<html lang="en">
 
 <head>
-    <meta charset=" UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,39 +15,186 @@
     <!-- UIkit JS -->
     <script src="js/uikit.js"></script>
     <script src="js/uikit-icons.min.js"></script>
-    <script src="components/header.js" type="text/javascript" defer></script>
 
-    <title>Schattenorigami</title>
+    <!-- my JS -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/mobile_nav.js" type="text/javascript" defer></script>
+
+    <title>Test</title>
     <link rel="icon" type="image/x-icon" href="/schattenorigami/assets/icons/favicon.ico">
 </head>
 
 <body>
-    <!-- main stuff -->
-    <div class="uk-width-1-1 uk-position-top-left">
-        <p class="uk-heading-2xlarge my-heading uk-padding-large uk-margin-top uk-text-bold">
-                original origami<br>design.
-        </p>
+    <div id="bg-img" class="uk-width-1-1 uk-background-contain" uk-parallax="bgy: 500"
+        style="height: 100vh; position: relative; background-image: url(/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg)">
 
-        <div class="uk-padding-large uk-child-width-1-2">
-            <a class="uk-button my-button" href="/schattenorigami/artworks.html">
-                <p class="uk-heading-small uk-visible@m">View Artworks</p>
-                <p class="uk-text-lead uk-hidden@m">View Artworks</p>
-            </a>
-            <a class="uk-button my-button" href="/schattenorigami/commissions.html">
-                <p class="uk-heading-small uk-visible@m">Commissions</p>
-                <p class="uk-text-lead uk-hidden@m">Commissions</p>
-            </a>
-            <a class="uk-button my-button" href="https://www.instagram.com/schattenorigami/" target="_blank">
-                <p class="uk-heading-small uk-visible@m"><span uk-icon="icon: instagram; ratio: 2"></span> Instagram</p>
-                <p class="uk-text-lead uk-hidden@m"><span uk-icon="icon: instagram"></span> Instagram</p>
-            </a>
+        <div class="uk-background-top-right uk-background-cover uk-visible@xl"
+            style="height: 80px; background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png); position: absolute;"
+            uk-parallax="target: #bg-img; end: 10vh; opacity: 0, 1" uk-sticky>
+        </div>
+        <div class="uk-position-top uk-visible@xl" style="position: absolute;">
+            <nav uk-navbar uk-sticky>
+                <ul class="uk-navbar-nav"
+                    uk-parallax="target: #bg-img; end: 100vh; background-color: transparent, #f8f8f8">
+                    <li>
+                        <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
+                            <img src="/schattenorigami/assets/logo_title.svg" width="150" uk-svg></img>
+                        </a>
+                    </li>
+                    <li class="uk-text-bold">
+                        <a href="/schattenorigami/artworks.html">Artworks</a>
+                    </li>
+                    <li class="uk-text-bold">
+                        <a href="/schattenorigami/about.html">About</a>
+                    </li>
+                    <li class="uk-text-bold">
+                        <a href="/schattenorigami/commissions.html">Commissions</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <my-mobile-nav></my-mobile-nav>
+
+        <div class="uk-position-bottom" style="background-color: transparent">
+            <p class="uk-heading-large uk-text-bold" style="text-align: center; color: rgb(77, 77, 77);">
+                original origami design<span style="color:rgb(117, 178, 152);">.</span>
+            </p>
         </div>
     </div>
 
-    
-    <div>
-        <img src="/schattenorigami/assets/index_logo.svg" class="uk-width-1-2 uk-position-bottom-right uk-position-fixed uk-margin-bottom" uk-svg>
+    <div class="uk-padding-large" style="background-color: rgb(77, 77, 77)">
+        <div class="uk-container-medium uk-container">
+            <h1 class="my-page-title uk-heading-line" style="color: white;"><span>Latest Artworks</span></h1>
+
+            <ul class="uk-grid-large uk-child-width-1-2 uk-child-width-1-4@m uk-text-center uk-padding uk-padding-remove-horizontal" uk-grid
+                uk-height-match="target: > li > .uk-card">
+                <li>
+                    <div
+                        class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
+                        <a href="/schattenorigami/artwork_pages/latrodectus_alata.html" class="uk-link-muted">
+                            <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
+                                <img class="my-img-square"
+                                    src="/schattenorigami/assets/artwork_imgs/latrodectus_alata_v1_0_img1.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Latrodectus alata</h3>
+                                March 2022
+                            </div>
+                        </a>
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div
+                        class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
+                        <a href="/schattenorigami/artwork_pages/bat.html" class="uk-link-muted">
+                            <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
+                                <img class="my-img-square" src="/schattenorigami/assets/artwork_imgs/bat_v1_0_img1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Bat</h3>
+                                October 2021
+                            </div>
+                        </a>
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div
+                        class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
+                        <a href="/schattenorigami/artwork_pages/tiny_turt.html" class="uk-link-muted">
+                            <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
+                                <img class="my-img-square"
+                                    src="/schattenorigami/assets/artwork_imgs/tiny_turt_v1_0_img1.jpeg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Tiny Turt</h3>
+                                September 2021
+                            </div>
+                        </a>
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div
+                        class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
+                        <a href="/schattenorigami/artwork_pages/avicularia_alata.html" class="uk-link-muted">
+                            <div class="uk-card-media-top uk-transition-scale-up uk-transition-opaque">
+                                <img class="my-img-square"
+                                    src="/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Avicularia alata</h3>
+                                February 2021
+                            </div>
+                        </a>
+                        <div class="uk-position-top-right uk-padding-small">
+                            <img src="assets/icons/cp_icon.svg" width="35" uk-svg></img>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="uk-text-center uk-margin-large-top">
+                <a class="uk-button my-button" href="/schattenorigami/artworks.html">
+                    <h2>View all artworks</h2>
+                </a>
+            </div>
+        </div>
     </div>
+
+    <div class="uk-padding-large"
+        style="background-color: rgb(117, 178, 152); box-shadow: 0 0 5px 10px rgb(117, 178, 152)">
+        <div class="uk-container-medium uk-container">
+            <h1 class="my-page-title uk-heading-line" style="color: white;"><span>Commission Status</span></h1>
+            <h2>I am currently accepting commissions. Check the details below:</h2>
+            <div class="uk-text-center uk-margin-large-top">
+                <a class="uk-button my-button" href="/schattenorigami/commissions.html">
+                    <h2>Commissions</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="uk-text-center uk-padding"
+        style="background-color: rgb(77, 77, 77); box-shadow: 0 0 5px 10px rgb(77, 77, 77);">
+        <div class="uk-container-medium uk-container">
+            <div>
+                <img src="/schattenorigami/assets/index_logo.svg" class="uk-width-1-2@s uk-width-1-3@m" uk-svg>
+            </div>
+
+            <div>
+                <a href="https://www.instagram.com/schattenorigami/" class="uk-margin-left my-index-social-button"
+                    target="_blank" uk-icon="icon: instagram; ratio: 2"></a>
+                <a href="https://twitter.com/schattenorigami" class="uk-margin-left my-index-social-button"
+                    target="_blank" uk-icon="icon: twitter; ratio: 2"></a>
+                <span class="uk-margin-left my-index-social-button" uk-tooltip="schatten#0319"
+                    uk-icon="icon: discord; ratio: 2"></span>
+            </div>
+
+            <hr class="uk-margin-large-top">
+
+            <div>
+                <h3 style="color: white; text-align: justify;">
+                    &copy schattenorigami
+                </h3>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
