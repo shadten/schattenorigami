@@ -58,13 +58,21 @@ div.my-sidebar-left>ul.uk-nav>.uk-active>a::before {
     padding: 5px;
     border-radius: 15px;
     color: white;
-    background-color: rgb(117, 178, 152)
+    background-color: rgb(117, 178, 152);
+
+    box-shadow: -15px -15px 25px rgb(30, 30, 30);
 }
 
 .my-index-social-button:hover {
     color: rgb(77, 77, 77);
     background-color: rgb(117, 178, 152);
     box-shadow: 2px, 2px, 5px, black;
+
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: -25px -25px 35px rgb(30, 30, 30);
+    offset: 5px 5px;
 }
 
 .my-button {

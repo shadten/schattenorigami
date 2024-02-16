@@ -20,13 +20,14 @@
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/mobile_nav.js" type="text/javascript" defer></script>
 
-    <title>Test</title>
+    <title>Schattenorigami</title>
     <link rel="icon" type="image/x-icon" href="/schattenorigami/assets/icons/favicon.ico">
 </head>
 
 <body>
     <div id="bg-img" class="uk-width-1-1 uk-background-contain" uk-parallax="bgy: 500"
-        style="height: 100vh; position: relative; background-image: url(/schattenorigami/assets/artwork_imgs/avicularia_alata_v1_1_img1.jpg)">
+        style="height: 100vh; position: relative;
+        background-image: url(/schattenorigami/assets/misc/index_bg_2.jpg); background-color: rgb(219, 219, 219);">
 
         <div class="uk-background-top-right uk-background-cover uk-visible@xl"
             style="height: 80px; background-image: url(/schattenorigami/assets/triangulated_navbar_gradient.png); position: absolute;"
@@ -34,8 +35,9 @@
         </div>
         <div class="uk-position-top uk-visible@xl" style="position: absolute;">
             <nav uk-navbar uk-sticky>
+                <!-- uk-parallax="target: #bg-img; end: 100vh; background-color: transparent, #f8f8f8>  -->
                 <ul class="uk-navbar-nav"
-                    uk-parallax="target: #bg-img; end: 100vh; background-color: transparent, #f8f8f8">
+                    uk-parallax="target: #bg-img; end: 10vh; background-color: #f8f8f800, #f8f8f8"> 
                     <li>
                         <a class="uk-logo uk-margin-left" href="/schattenorigami/index.html">
                             <img src="/schattenorigami/assets/logo_title.svg" width="150" uk-svg></img>
@@ -55,10 +57,38 @@
         </div>
         <my-mobile-nav></my-mobile-nav>
 
-        <div class="uk-position-bottom" style="background-color: transparent">
-            <p class="uk-heading-large uk-text-bold" style="text-align: center; color: rgb(77, 77, 77);">
+        <div class="uk-position-bottom" style="background-color: transparent; backdrop-filter: blur(5px);">
+            <p class="uk-heading-large uk-text-bold uk-visible@s" style="text-align: center; color: rgb(77, 77, 77)">
                 original origami design<span style="color:rgb(117, 178, 152);">.</span>
             </p>
+            <p class="uk-heading-medium uk-text-bold uk-hidden@s" style="text-align: center; color: rgb(77, 77, 77);">
+                original origami design<span style="color:rgb(117, 178, 152);">.</span>
+            </p>
+
+            <div class="uk-text-center uk-grid-large uk-padding uk-child-width-1-3 uk-child-width-1-5@m" uk-grid>
+                <div class="uk-animation-toggle uk-visible@m " tabindex="0">
+                    <img src="/schattenorigami/assets/misc/evol_square.svg"
+                        class="uk-animation-shake uk-animation-fast" uk-svg="">
+                </div>
+                <div class="uk-animation-toggle" tabindex="0">
+                    <img src="/schattenorigami/assets/misc/evol_cp.svg"
+                    class="uk-animation-shake uk-animation-fast" uk-svg>
+                </div>
+                <div class="uk-animation-toggle" tabindex="0">
+                    <img src="/schattenorigami/assets/misc/evol_base.svg"
+                    class="uk-animation-shake uk-animation-fast" uk-svg>
+                </div>
+                <div class="uk-animation-toggle uk-visible@m" tabindex="0">
+                    <img src="/schattenorigami/assets/misc/evol_folded.svg"
+                    class="uk-animation-shake uk-animation-fast" uk-svg>
+                </div>
+                <div class="uk-animation-toggle" tabindex="0">
+                    <img src="/schattenorigami/assets/misc/evol_shaped.svg"
+                    class="uk-animation-shake uk-animation-fast"
+                        uk-svg>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -66,8 +96,8 @@
         <div class="uk-container-medium uk-container">
             <h1 class="my-page-title uk-heading-line" style="color: white;"><span>Latest Artworks</span></h1>
 
-            <ul class="uk-grid-large uk-child-width-1-2 uk-child-width-1-4@m uk-text-center uk-padding uk-padding-remove-horizontal" uk-grid
-                uk-height-match="target: > li > .uk-card">
+            <ul class="uk-grid-large uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-padding uk-padding-remove-horizontal"
+                uk-grid uk-height-match="target: > li > .uk-card">
                 <li>
                     <div
                         class="uk-card uk-card-default uk-link-toggle uk-transition-toggle uk-inline-clip uk-card-hover">
@@ -157,7 +187,7 @@
         style="background-color: rgb(117, 178, 152); box-shadow: 0 0 5px 10px rgb(117, 178, 152)">
         <div class="uk-container-medium uk-container">
             <h1 class="my-page-title uk-heading-line" style="color: white;"><span>Commission Status</span></h1>
-            <h2>I am currently accepting commissions. Check the details below:</h2>
+            <h2>I am currently not accepting commissions. Check the details below:</h2>
             <div class="uk-text-center uk-margin-large-top">
                 <a class="uk-button my-button" href="/schattenorigami/commissions.html">
                     <h2>Commissions</h2>
